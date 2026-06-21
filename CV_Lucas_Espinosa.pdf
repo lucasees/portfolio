@@ -1,80 +1,830 @@
 %PDF-1.4
-%“Œ‹ž ReportLab Generated PDF document (opensource)
+%âãÏÓ
 1 0 obj
 <<
-/F1 2 0 R /F2 3 0 R /F3 4 0 R
+/Producer (pypdf)
 >>
 endobj
 2 0 obj
 <<
-/BaseFont /Helvetica /Encoding /WinAnsiEncoding /Name /F1 /Subtype /Type1 /Type /Font
+/Type /Pages
+/Count 1
+/Kids [ 4 0 R ]
 >>
 endobj
 3 0 obj
 <<
-/BaseFont /Helvetica-Bold /Encoding /WinAnsiEncoding /Name /F2 /Subtype /Type1 /Type /Font
+/Type /Catalog
+/Pages 2 0 R
 >>
 endobj
 4 0 obj
 <<
-/BaseFont /Helvetica-Oblique /Encoding /WinAnsiEncoding /Name /F3 /Subtype /Type1 /Type /Font
+/Contents 5 0 R
+/MediaBox [ 0 0 595.2756 841.8898 ]
+/Resources <<
+/Font <<
+/F1 6 0 R
+/F1-0 7 0 R
+/F2 8 0 R
+/F2-0 9 0 R
+/F3 10 0 R
+>>
+/ProcSet [ /ImageB /ImageC /ImageI /PDF /Text ]
+>>
+/Rotate 0
+/Trans <<
+>>
+/Type /Page
+/Annots [ 11 0 R 12 0 R 13 0 R 14 0 R ]
+/Parent 2 0 R
 >>
 endobj
 5 0 obj
 <<
-/Contents 9 0 R /MediaBox [ 0 0 595.2756 841.8898 ] /Parent 8 0 R /Resources <<
-/Font 1 0 R /ProcSet [ /PDF /Text /ImageB /ImageC /ImageI ]
->> /Rotate 0 /Trans <<
-
->> 
-  /Type /Page
+/Length 17567
 >>
+stream
+q
+1 0 0 1 0 0 cm  BT /F1 12 Tf 14.4 TL ET
+q
+1 0 0 1 45.68504 786.7087 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 2 Tm /F2 16 Tf 18 TL 121.2408 0 Td (Lucas Emiliano Espinosa Putruele) Tj T* -121.2408 0 Td ET
+Q
+Q
+q
+1 0 0 1 45.68504 772.7087 cm
+q
+.266667 .266667 .266667 rg
+BT 1 0 0 1 0 2 Tm /F3 10 Tf 12 TL 89.65776 0 Td (Data Analyst \267 SQL \267 Power BI \267 Tableau \267 Python \267 Anal\355tica Digital \(GA4\)) Tj T* -89.65776 0 Td ET
+Q
+Q
+q
+1 0 0 1 45.68504 760.7087 cm
+q
+.266667 .266667 .266667 rg
+BT 1 0 0 1 0 1.8 Tm /F1 8.2 Tf 10 TL 25.94026 0 Td (+34 644 839 621 \267 lucaseespinosa93@gmail.com \267 linkedin.com/in/lucasespinosaa \267 github.com/lucasees \267 Valencia, Espa\361a) Tj T* -25.94026 0 Td ET
+Q
+Q
+q
+1 0 0 1 45.68504 742.7087 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 1.4 Tm /F2 9.6 Tf 11 TL (PERFIL PROFESIONAL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 740.9087 cm
+q
+.8 w
+1 J
+.121569 .305882 .47451 RG
+n 0 0 m 503.9055 0 l S
+Q
+Q
+q
+1 0 0 1 45.68504 674.3087 cm
+q
+.133333 .133333 .133333 rg
+BT 1 0 0 1 0 55 Tm /F1 8.6 Tf 10.6 TL .328376 Tw (Data Analyst junior con base en an\341lisis comercial B2B y sector p\372blico \(+5 a\361os de experiencia\) y formaci\363n completada en SQL,) Tj T* 0 Tw .27074 Tw (Python, Power BI, Tableau, BigQuery y Google Analytics 4. Cuatro proyectos de an\341lisis de datos end-to-end \227incluido un modelo) Tj T* 0 Tw .185794 Tw (de predicci\363n de demanda con machine learning\227, cubriendo ETL, an\341lisis exploratorio, calidad del dato, modelado y visualizaci\363n) Tj T* 0 Tw 1.834665 Tw (de datos en cuadros de mando \(dashboards\) e informes. Actualmente finalizando un M\341ster en Direcci\363n de E-Commerce y) Tj T* 0 Tw 1.318666 Tw (Marketing Digital \(UB\). Orientado a la toma de decisiones basada en datos y habituado a colaborar con equipos de negocio y) Tj T* 0 Tw (tecnolog\355a.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 656.3087 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 1.4 Tm /F2 9.6 Tf 11 TL (PROYECTOS DE DATA ANALYTICS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 654.5087 cm
+q
+.8 w
+1 J
+.121569 .305882 .47451 RG
+n 0 0 m 503.9055 0 l S
+Q
+Q
+q
+1 0 0 1 45.68504 640.9087 cm
+q
+BT 1 0 0 1 0 2 Tm 10.6 TL /F2 8.6 Tf .121569 .305882 .47451 rg (Predicci\363n de Demanda con Machine Learning \227 Python + LightGBM) Tj /F1 8.6 Tf .133333 .133333 .133333 rg ( \267 ) Tj /F3 8.6 Tf (github.com/lucasees/proyecto4-demanda-favorita) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 608.6087 cm
+q
+BT 1 0 0 1 2 23.2 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 9 23.2 Tm /F1 8.6 Tf 10.6 TL 2.5 0 Td .028722 Tw (Modelo de previsi\363n de demanda para retail \(datos reales de Corporaci\363n Favorita, 18 tiendas\): mejora del baseline en un 62,6%) Tj T* 0 Tw -2.5 0 Td .846736 Tw (\(MAE\) y traducci\363n del error de predicci\363n a impacto econ\363mico \227 27,6 M$ de ahorro estimado en 8 meses, diferenciando el) Tj T* 0 Tw (costo de rotura de stock \(understock\) del de sobrestock.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 595.0087 cm
+q
+BT 1 0 0 1 0 2 Tm 10.6 TL /F2 8.6 Tf .121569 .305882 .47451 rg (An\341lisis Comercial B2B \227 SQL Server + Power BI) Tj /F1 8.6 Tf .133333 .133333 .133333 rg ( \267 ) Tj /F3 8.6 Tf (github.com/lucasees/proyecto1-analisis-b2b) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 573.3087 cm
+q
+BT 1 0 0 1 2 12.6 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 9 12.6 Tm /F1 8.6 Tf 10.6 TL 2.5 0 Td 1.199944 Tw (Segmentaci\363n RFM, an\341lisis de cohortes e identificaci\363n de tendencias y desviaciones sobre 1.747 registros B2B \(5 tablas\):) Tj T* 0 Tw -2.5 0 Td (optimizaci\363n de consultas SQL y cuadro de mando de KPIs comerciales en Power BI para apoyar decisiones de venta.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 559.7087 cm
+q
+BT 1 0 0 1 0 2 Tm 10.6 TL /F2 8.6 Tf .121569 .305882 .47451 rg (E-Commerce Analytics \227 BigQuery + Looker Studio \(GA4\)) Tj /F1 8.6 Tf .133333 .133333 .133333 rg ( \267 ) Tj /F3 8.6 Tf (github.com/lucasees/proyecto2-ecommerce-analytics) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 538.0087 cm
+q
+BT 1 0 0 1 2 12.6 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 9 12.6 Tm /F1 8.6 Tf 10.6 TL 2.5 0 Td .065282 Tw (Datos reales de Google Merchandise Store \(BigQuery\): 8 consultas SQL sobre comportamiento de usuario, conversi\363n por canal) Tj T* 0 Tw -2.5 0 Td (y revenue; m\351tricas de tr\341fico, audiencias y campa\361as. Cuadro de mando p\372blico en Looker Studio.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 524.4087 cm
+q
+BT 1 0 0 1 0 2 Tm 10.6 TL /F2 8.6 Tf .121569 .305882 .47451 rg (An\341lisis de Churn con Python \227 Telco Customer Dataset) Tj /F1 8.6 Tf .133333 .133333 .133333 rg ( \267 ) Tj /F3 8.6 Tf (github.com/lucasees/proyecto3-churn-analysis) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 502.7087 cm
+q
+BT 1 0 0 1 2 12.6 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 9 12.6 Tm /F1 8.6 Tf 10.6 TL 2.5 0 Td 1.280514 Tw (An\341lisis exploratorio de 7.043 clientes \(pandas, matplotlib, seaborn, scikit-learn\): el churn \(26,5%\) se concentra en contratos) Tj T* 0 Tw -2.5 0 Td (mensuales \(42,7% vs. 2,8% en bianuales\), se\361alando la fidelizaci\363n contractual como principal palanca de retenci\363n.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 484.7087 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 1.4 Tm /F2 9.6 Tf 11 TL (HABILIDADES T\311CNICAS) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 482.9087 cm
+q
+.8 w
+1 J
+.121569 .305882 .47451 RG
+n 0 0 m 503.9055 0 l S
+Q
+Q
+q
+1 0 0 1 45.68504 448.1087 cm
+q
+BT 1 0 0 1 0 23.2 Tm .661143 Tw 10.6 TL /F2 8.6 Tf .121569 .305882 .47451 rg (Datos y BI:) Tj /F1 8.6 Tf .133333 .133333 .133333 rg ( SQL \(SQL Server, PostgreSQL, MySQL, BigQuery\) \227 consultas avanzadas y optimizaci\363n de consultas \267 Power BI \267) Tj T* 0 Tw .030627 Tw (Tableau \267 Looker Studio \267 Excel avanzado \267 Python \(pandas, numpy, matplotlib, seaborn, scikit-learn, Jupyter\) \267 ETL \267 Visualizaci\363n y) Tj T* 0 Tw (modelado de datos \267 Estad\355stica descriptiva) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 435.5087 cm
+q
+BT 1 0 0 1 0 2 Tm 10.6 TL /F2 8.6 Tf .121569 .305882 .47451 rg (Anal\355tica digital:) Tj /F1 8.6 Tf .133333 .133333 .133333 rg ( Google Analytics 4 \267 Google Tag Manager \267 Google Ads) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 422.9087 cm
+q
+BT 1 0 0 1 0 2 Tm 10.6 TL /F2 8.6 Tf .121569 .305882 .47451 rg (Herramientas:) Tj /F1 8.6 Tf .133333 .133333 .133333 rg ( VS Code \267 GitHub \267 Google Workspace) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 410.3087 cm
+q
+BT 1 0 0 1 0 2 Tm 10.6 TL /F2 8.6 Tf .121569 .305882 .47451 rg (Idiomas:) Tj /F1 8.6 Tf .133333 .133333 .133333 rg ( Espa\361ol \(nativo\) \267 Ingl\351s \(b\341sico, en mejora\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 392.3087 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 1.4 Tm /F2 9.6 Tf 11 TL (CERTIFICACIONES) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 390.5087 cm
+q
+.8 w
+1 J
+.121569 .305882 .47451 RG
+n 0 0 m 503.9055 0 l S
+Q
+Q
+q
+1 0 0 1 45.68504 366.3087 cm
+q
+BT 1 0 0 1 0 12.6 Tm .546535 Tw 10.6 TL /F2 8.6 Tf .133333 .133333 .133333 rg (Data Analytics) Tj /F1 8.6 Tf ( \227 CoderHouse \227 mayo 2026  ) Tj (\267) Tj (  ) Tj /F2 8.6 Tf (Google Analytics 4 Certification) Tj /F1 8.6 Tf ( \227 Google Skillshop \227 junio 2026  ) Tj (\267) Tj (  ) Tj /F2 8.6 Tf (Google) Tj T* 0 Tw (Ads Search Certification) Tj /F1 8.6 Tf ( \227 Google Skillshop \227 en proceso \(junio 2026\)) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 348.3087 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 1.4 Tm /F2 9.6 Tf 11 TL (EXPERIENCIA PROFESIONAL) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 346.5087 cm
+q
+.8 w
+1 J
+.121569 .305882 .47451 RG
+n 0 0 m 503.9055 0 l S
+Q
+Q
+q
+1 0 0 1 45.68504 332.9087 cm
+q
+BT 1 0 0 1 0 2 Tm 10.6 TL /F2 8.6 Tf .133333 .133333 .133333 rg (Comercial y Asesor Estrat\351gico) Tj /F1 8.6 Tf ( \267 ) Tj /F2 8.6 Tf .121569 .305882 .47451 rg (Sucnatur S.L.) Tj /F1 8.6 Tf .133333 .133333 .133333 rg ( \267 ) Tj /F3 8.6 Tf (Jun. 2025 \226 Nov. 2025 \267 Valencia, Espa\361a) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 311.2087 cm
+q
+BT 1 0 0 1 2 12.6 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 9 12.6 Tm /F1 8.6 Tf 10.6 TL 2.5 0 Td .590586 Tw (Dise\361\351 e implement\351 un CRM desde cero que centraliz\363 la informaci\363n de ~70 clientes, mejor\363 la calidad del dato comercial y) Tj T* 0 Tw -2.5 0 Td (redujo el tiempo de respuesta de 5 d\355as a 24 h, agilizando la toma de decisiones de direcci\363n.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 300.1087 cm
+q
+BT 1 0 0 1 2 2 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 9 2 Tm /F1 8.6 Tf 10.6 TL 2.5 0 Td (An\341lisis de mercado para prospecci\363n, nuevos segmentos y posicionamiento; coordinaci\363n de agencia de marketing externa.) Tj T* -2.5 0 Td ET
+Q
+Q
+q
+1 0 0 1 45.68504 286.5087 cm
+q
+BT 1 0 0 1 0 2 Tm 10.6 TL /F2 8.6 Tf .133333 .133333 .133333 rg (Analista Comercial y Administrativo) Tj /F1 8.6 Tf ( \267 ) Tj /F2 8.6 Tf .121569 .305882 .47451 rg (Minoil S.A.) Tj /F1 8.6 Tf .133333 .133333 .133333 rg ( \267 ) Tj /F3 8.6 Tf (Ene. 2022 \226 Ene. 2025 \267 San Juan, Argentina) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 264.8087 cm
+q
+BT 1 0 0 1 2 12.6 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 9 12.6 Tm /F1 8.6 Tf 10.6 TL 2.5 0 Td 1.505695 Tw (Analic\351 los KPIs \(m\351tricas e indicadores comerciales\) de una cartera de ~200 clientes y proces\351 m\341s de 80 transacciones) Tj T* 0 Tw -2.5 0 Td (mensuales; tras redise\361ar el seguimiento comercial con informes peri\363dicos, la tasa de conversi\363n mejor\363 un 15%.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 243.1087 cm
+q
+BT 1 0 0 1 2 12.6 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 9 12.6 Tm /F1 8.6 Tf 10.6 TL 2.5 0 Td .723719 Tw (Implement\351 un CRM para la coordinaci\363n entre equipos comerciales y administrativos y elabor\351 reporting de rendimiento para) Tj T* 0 Tw -2.5 0 Td (direcci\363n.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 229.5087 cm
+q
+BT 1 0 0 1 0 2 Tm 10.6 TL /F2 8.6 Tf .133333 .133333 .133333 rg (Asesor de Gobierno) Tj /F1 8.6 Tf ( \267 ) Tj /F2 8.6 Tf .121569 .305882 .47451 rg (Secretar\355a de Gobierno, Municipalidad de San Juan) Tj /F1 8.6 Tf .133333 .133333 .133333 rg ( \267 ) Tj /F3 8.6 Tf (2019 \226 2023 \267 San Juan, Argentina) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 207.8087 cm
+q
+BT 1 0 0 1 2 12.6 Tm /F1 10 Tf 12 TL .133333 .133333 .133333 rg (\177) Tj ET
+.133333 .133333 .133333 rg
+BT 1 0 0 1 9 12.6 Tm /F1 8.6 Tf 10.6 TL 2.5 0 Td .865421 Tw (Posici\363n de m\341xima confianza del Secretario: coordin\351 12 \341reas, con planificaci\363n estrat\351gica, seguimiento de indicadores de) Tj T* 0 Tw -2.5 0 Td (gesti\363n y elaboraci\363n de informes para la asignaci\363n de presupuesto.) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 189.8087 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 1.4 Tm /F2 9.6 Tf 11 TL (FORMACI\323N) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 188.0087 cm
+q
+.8 w
+1 J
+.121569 .305882 .47451 RG
+n 0 0 m 503.9055 0 l S
+Q
+Q
+q
+1 0 0 1 45.68504 174.4087 cm
+q
+BT 1 0 0 1 0 2 Tm 10.6 TL /F2 8.6 Tf .133333 .133333 .133333 rg (M\341ster en Direcci\363n de E-Commerce y Marketing Digital) Tj /F1 8.6 Tf ( \267 ) Tj /F3 8.6 Tf (Universidad de Barcelona) Tj /F1 8.6 Tf ( \267 Oct. 2025 \226 Jul. 2026) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 161.8087 cm
+q
+BT 1 0 0 1 0 2 Tm 10.6 TL /F2 8.6 Tf .133333 .133333 .133333 rg (Licenciatura en Administraci\363n de Empresas) Tj /F1 8.6 Tf ( \267 ) Tj /F3 8.6 Tf (Universidad Siglo 21, Argentina) Tj /F1 8.6 Tf ( \267 2021 \226 2025) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 143.8087 cm
+q
+.121569 .305882 .47451 rg
+BT 1 0 0 1 0 1.4 Tm /F2 9.6 Tf 11 TL (COMPETENCIAS CLAVE) Tj T* ET
+Q
+Q
+q
+1 0 0 1 45.68504 142.0087 cm
+q
+.8 w
+1 J
+.121569 .305882 .47451 RG
+n 0 0 m 503.9055 0 l S
+Q
+Q
+q
+1 0 0 1 45.68504 107.2087 cm
+q
+.133333 .133333 .133333 rg
+BT 1 0 0 1 0 23.2 Tm /F1 8.6 Tf 10.6 TL 3.380157 Tw (Pensamiento anal\355tico \267 Toma de decisiones basada en datos \267 Identificaci\363n de tendencias, patrones y desviaciones \267) Tj T* 0 Tw 1.073224 Tw (Comunicaci\363n con equipos de negocio y tecnolog\355a y perfiles no t\351cnicos \267 Atenci\363n al detalle y calidad del dato \267 Autonom\355a y) Tj T* 0 Tw (aprendizaje continuo) Tj T* ET
+Q
+Q
+ 
+
+Q
+q
+0.0 0.0 595.276 841.89 re
+W
+n
+1 0 0 1 0 0 cm
+BT
+/F1-0 12 Tf
+14.4 TL
+ET
+1 1 1 rg
+n
+43 757 509 14 re
+f*
+0.266667 0.266667 0.266667 rg
+BT
+/F1-0 8.2 Tf
+9.84 TL
+ET
+BT
+1 0 0 1 54.4122 760.81 Tm
+(\05334 644 839 621) Tj
+T*
+ET
+BT
+1 0 0 1 116.191 760.81 Tm
+( \267 ) Tj
+T*
+ET
+BT
+1 0 0 1 123.0298 760.81 Tm
+(lucaseespinosa93\100gmail\056com) Tj
+T*
+ET
+BT
+1 0 0 1 234.3448 760.81 Tm
+( \267 ) Tj
+T*
+ET
+q
+1 0 0 1 241.1836 759.7497 cm
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+0 0 0 rg
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+q
+0.5 0 0 0.5 0 0 cm
+q
+0.75 0 0 -0.75 0 12 cm
+q
+1 0 0 1 0 0 cm
+q
+0.266667 0.266667 0.266667 rg
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+0 1.146 m
+0 0.513 0.526 0 1.175 0 c
+14.825 0 l
+15.474 0 16 0.513 16 1.146 c
+16 14.854 l
+16 15.487 15.474 16 14.825 16 c
+1.175 16 l
+0.526 16 0 15.487 0 14.854 c
+0 1.146 l
+h
+4.943 13.394 m
+4.943 6.169 l
+2.542 6.169 l
+2.542 13.394 l
+4.943 13.394 l
+h
+3.743 5.182 m
+4.58 5.182 5.101 4.628 5.101 3.934 c
+5.086 3.225 4.581 2.686 3.759 2.686 c
+2.937 2.686 2.4 3.226 2.4 3.934 c
+2.4 4.628 2.921 5.182 3.727 5.182 c
+3.743 5.182 l
+h
+8.651 13.394 m
+8.651 9.359 l
+8.651 9.143 8.667 8.927 8.731 8.773 c
+8.904 8.342 9.299 7.895 9.963 7.895 c
+10.832 7.895 11.179 8.557 11.179 9.529 c
+11.179 13.394 l
+13.58 13.394 l
+13.58 9.25 l
+13.58 7.03 12.396 5.998 10.816 5.998 c
+9.542 5.998 8.971 6.698 8.651 7.191 c
+8.651 7.216 l
+8.635 7.216 l
+8.640311 7.207652 8.645644 7.199319 8.651 7.191 c
+8.651 6.169 l
+6.251 6.169 l
+6.281 6.847 6.251 13.394 6.251 13.394 c
+8.651 13.394 l
+h
+f
+Q
+Q
+Q
+Q
+Q
+BT
+1 0 0 1 250.9836 760.81 Tm
+(lucasespinosaa) Tj
+T*
+ET
+BT
+1 0 0 1 307.498 760.81 Tm
+( \267 ) Tj
+T*
+ET
+q
+1 0 0 1 314.3368 759.7497 cm
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+0 0 0 rg
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+q
+0.5 0 0 0.5 0 0 cm
+q
+0.75 0 0 -0.75 0 12 cm
+q
+1 0 0 1 0 0 cm
+q
+0.266667 0.266667 0.266667 rg
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+8 0 m
+3.58 0 0 3.58 0 8 c
+0 11.54 2.29 14.53 5.47 15.59 c
+5.87 15.66 6.02 15.42 6.02 15.21 c
+6.02 15.02 6.01 14.39 6.01 13.72 c
+4 14.09 3.48 13.23 3.32 12.78 c
+3.23 12.55 2.84 11.84 2.5 11.65 c
+2.22 11.5 1.82 11.13 2.49 11.12 c
+3.12 11.11 3.57 11.7 3.72 11.94 c
+4.44 13.15 5.59 12.81 6.05 12.6 c
+6.12 12.08 6.33 11.73 6.56 11.53 c
+4.78 11.33 2.92 10.64 2.92 7.58 c
+2.92 6.71 3.23 5.99 3.74 5.43 c
+3.66 5.23 3.38 4.41 3.82 3.31 c
+3.82 3.31 4.49 3.1 6.02 4.13 c
+6.66 3.95 7.34 3.86 8.02 3.86 c
+8.7 3.86 9.38 3.95 10.02 4.13 c
+11.55 3.09 12.22 3.31 12.22 3.31 c
+12.66 4.41 12.38 5.23 12.3 5.43 c
+12.81 5.99 13.12 6.7 13.12 7.58 c
+13.12 10.65 11.25 11.33 9.47 11.53 c
+9.76 11.78 10.01 12.26 10.01 13.01 c
+10.01 14.08 10 14.94 10 15.21 c
+10 15.42 10.15 15.67 10.55 15.59 c
+13.80645 14.49066 15.99912 11.437 16 8 c
+16 3.58 12.42 0 8 0 c
+h
+f
+Q
+Q
+Q
+Q
+Q
+BT
+1 0 0 1 324.1368 760.81 Tm
+(lucasees) Tj
+T*
+ET
+BT
+1 0 0 1 356.494 760.81 Tm
+( \267 ) Tj
+T*
+ET
+q
+1 0 0 1 363.3328 759.7497 cm
+0 0 0 RG
+1 w
+0 J
+0 j
+[ ] 0 d
+0 0 0 rg
+BT
+/F2-0 10 Tf
+12 TL
+ET
+BT
+/F2-0 10 Tf
+12 TL
+ET
+q
+0.5 0 0 0.5 0 0 cm
+q
+0.75 0 0 -0.75 0 12 cm
+q
+1 0 0 1 0 0 cm
+q
+0.266667 0.266667 0.266667 rg
+1 w
+0 J
+0 j
+[ ] 0 d
+n
+0 8 m
+0 3.581722 3.581722 0 8 0 c
+12.41828 0 16 3.581722 16 8 c
+16 12.41828 12.41828 16 8 16 c
+3.581722 16 0 12.41828 0 8 c
+h
+7.5 1.077 m
+6.83 1.281 6.165 1.897 5.613 2.932 c
+5.431132 3.276095 5.274714 3.633051 5.145 4 c
+7.5 4 l
+7.5 1.077 l
+h
+4.09 4 m
+4.256672 3.468817 4.470872 2.953734 4.73 2.461 c
+4.902907 2.134055 5.10259 1.821989 5.327 1.528 c
+4.088003 2.041827 3.022006 2.899622 2.255 4 c
+4.09 4 l
+h
+3.508 7.5 m
+3.538 6.623 3.646 5.782 3.82 5 c
+1.674 5 l
+1.301118 5.78505 1.078613 6.63301 1.018 7.5 c
+3.508 7.5 l
+h
+4.847 5 m
+4.650315 5.819803 4.537072 6.657401 4.509 7.5 c
+7.5 7.5 l
+7.5 5 l
+4.847 5 l
+h
+8.5 5 m
+8.5 7.5 l
+11.49 7.5 l
+11.46229 6.657432 11.34938 5.819831 11.153 5 c
+8.5 5 l
+h
+4.51 8.5 m
+4.537744 9.342565 4.650652 10.18016 4.847 11 c
+7.5 11 l
+7.5 8.5 l
+4.51 8.5 l
+h
+8.5 8.5 m
+8.5 11 l
+11.153 11 l
+11.34 10.235 11.459 9.392 11.491 8.5 c
+8.5 8.5 l
+h
+5.145 12 m
+5.283 12.386 5.44 12.744 5.613 13.068 c
+6.165 14.103 6.831 14.718 7.5 14.923 c
+7.5 12 l
+5.145 12 l
+h
+5.327 14.472 m
+5.102575 14.17802 4.902891 13.86595 4.73 13.539 c
+4.470877 13.04626 4.256677 12.53118 4.09 12 c
+2.255 12 l
+3.021965 13.10042 4.087975 13.95822 5.327 14.472 c
+h
+3.82 11 m
+3.639165 10.17806 3.53472 9.341169 3.508 8.5 c
+1.018 8.5 l
+1.08 9.39 1.309 10.233 1.674 11 c
+3.82 11 l
+h
+10.673 14.472 m
+11.91203 13.95822 12.97804 13.10042 13.745 12 c
+11.91 12 l
+11.74331 12.53118 11.52911 13.04626 11.27 13.539 c
+11.09714 13.86597 10.89746 14.17804 10.673 14.472 c
+h
+8.5 12 m
+8.5 14.923 l
+9.17 14.719 9.835 14.103 10.387 13.068 c
+10.56 12.744 10.717 12.386 10.855 12 c
+8.5 12 l
+h
+12.18 11 m
+14.326 11 l
+14.691 10.233 14.92 9.39 14.982 8.5 c
+12.492 8.5 l
+12.46529 9.34117 12.36085 10.17807 12.18 11 c
+h
+14.982 7.5 m
+14.92136 6.633014 14.69886 5.785058 14.326 5 c
+12.18 5 l
+12.354 5.782 12.462 6.623 12.492 7.5 c
+14.982 7.5 l
+h
+11.27 2.461 m
+11.517 2.925 11.732 3.441 11.91 4 c
+13.745 4 l
+12.97804 2.899583 11.91203 2.041778 10.673 1.528 c
+10.891 1.812 11.091 2.126 11.27 2.461 c
+h
+10.855 4 m
+10.7253 3.633045 10.56888 3.276089 10.387 2.932 c
+9.835 1.897 9.17 1.282 8.5 1.077 c
+8.5 4 l
+10.855 4 l
+h
+f
+Q
+Q
+Q
+Q
+Q
+BT
+1 0 0 1 373.1328 760.81 Tm
+(lucasees\056github\056io\057portfolio) Tj
+T*
+ET
+BT
+1 0 0 1 470.2126 760.81 Tm
+( \267 ) Tj
+T*
+ET
+BT
+1 0 0 1 477.0514 760.81 Tm
+(Valencia\054 Espa\361a) Tj
+T*
+ET
+Q
+
+endstream
 endobj
 6 0 obj
 <<
-/PageMode /UseNone /Pages 8 0 R /Type /Catalog
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 7 0 obj
 <<
-/Author (Lucas Emiliano Espinosa Putruele) /CreationDate (D:20260611133948+02'00') /Creator (\(unspecified\)) /Keywords () /ModDate (D:20260611133948+02'00') /Producer (ReportLab PDF Library - \(opensource\)) 
-  /Subject (\(unspecified\)) /Title (CV Lucas Espinosa \204 Data Analyst) /Trapped /False
+/BaseFont /Helvetica
+/Encoding /WinAnsiEncoding
+/Name /F1
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 8 0 obj
 <<
-/Count 1 /Kids [ 5 0 R ] /Type /Pages
+/BaseFont /Helvetica-Bold
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
 endobj
 9 0 obj
 <<
-/Filter [ /ASCII85Decode /FlateDecode ] /Length 4084
+/BaseFont /Times-Roman
+/Encoding /WinAnsiEncoding
+/Name /F2
+/Subtype /Type1
+/Type /Font
 >>
-stream
-Gb!;f968iI'#*O1i391Y2DRXO:X*-FQK:LP/,!)6lqWfu&.-O98OC=M-^qsNp?`&TM3KTINpWrb>SW)0!AsZCp"'XV`.U?Jr?!A>*7)a=;i=bBbccia(_2t+On&A"+0Vd28]N^$^bm.l#G0nDJIgf!B>^I0lOAYYRr/d6@Q;*^=sR=cJgmhh.PPcB.o9]#C4uZNLS4opbQ**a8#1?0L+F_47)X\RP)T"?87g)f79O.IO80_Ms$GlJ,Y.6A+Q]frGFtZpD+[D`pudk>cNBoq`%mUV'L`H8L?JEI=,D7?$:]b!M`5oI()1AKrHb?U>f]-T7ZJkmC<i,"B4^bbVRVqkrf2UI[d+\QAE6.[7)<?<ke/'!M`9CM[T@lbURq9%)mtViDq-%_Tabr"?E%]K*0\s#I;:p_EuYhF"6*0NM]\^r33Q"4YlD+'R#$_u-IqQ/^#>)En]j4Y^=1D0O#-_Cm.n4tW[I)roFIQsbgTCm55G7`fUg'j.VT:bJ4^gXGV?JOn$Sd>k*8Cee4B%;I!Ib5,8Z^0VrQIkr6t/:(?cnJ9Ok;j+<Z0N1ER-aEr#]7Wb+eXCYCJhFl=MkZU<2g^&q=#2JD,8ZN%JM6^W"3EkOaP5L2S7)VEt^o0;u^qb*=aR?8%#G6p/O4=)OafT$])>i]igi>L8t-HGbGCe2jh!Zk]%CnE=i&P@$-[k:NYPW=S.K!/s]$"`&6)]3Q@Z\4#6*jAS5DB8>#719uaT^(-d2Gl;`qPN^0+a#L3\+/%QA$&Oe`Tl'<B,d69]p,Rblch\njhrmpW+8=DaZ>V)'NPOjg_*j]%.EdE3\'2&I"5R%?_h+8MF`mc-&IS*/DII5Ja3iRE%o6l"9/ntIGp\Y@4CON2$k59(+CURDjH9&L"#cf=>!H*YekX6eo/Y58rI6b;Ir23K.IcMMdX\0M;$SP0Gq>D[j!KapV1I6[Y0=$[iNe9CFSS/_V-Q`Zn>0K1g@ohl_S,pP_5Md&Lgn@k6;fY"g!gT[,C";Uh[/6lXbqtk64rjjua4nDe`[-1m/0V$R_E,WGF'bN)EPJ=a%[j:eCg*IlguL0uu@iVncRn&i3G,KPAD[THfj+I"6uQY+mqa+kLNZ5[$#lPVHBo(:?*m5>&334&5TDL-k<"eLPm3b#keXVj[)BM"b/X'p;A2SBLN]a.rJ+N1>jKa`'Eh6bo8MkEF;pM^XVE^**3XYjH?)XAK.F<<:?1FhgcH6fk*U.aokHcDj]<Tie5@\)^5aY)E%p;l,W]XrR^7daM?r)I_5BHM?KqG;VoN7of=*?*RT>_Lcp7JI+-iV^+m5D9s2WRl'.KW>ClhX$pI9DK%gRXg89-e8TO?2,"q`Pj6n"YXUHs!Kc)*Y;OK?aT/#'X<7S>/E;hr<?R93[Y=d_9mKq,WfMh:5\OYX,sRNFIt=L3Hsod,dCp0uJ0,j"H`pXNGdJ,@E'3%/+L1-)LLZT5MMsu8_g,_.ZOAV9*=-7F,\mUm,TQ^hmj0GHTfW;OH=Zj_PmOT>N$g_@7"VWDEWmR>OI&.f`"gTtk!HT<E>pMsR28J>R4Lt<4T[RZ)phNO7QaTc+L=COpe<@sY3pF_(3e[Tk-G6HY`W'XXTYf6JR!B<ZWf]b\(giW_?"6h0h`i8dF"+04"/%V)d(i%/rS_80-=HDFUeSAAQXT$^sT5k``JNa\)D=P3plAlO&1H.'bF*$E$KU0>X<qfJAqYB89l=)[ts4V!e+.[:\bYTkW;'&q+B]Ok&Y+`SkBD57k49D"BSC%_;TU>6-GGRAR*#KkRj;A,O?f[I/2l5dboX\;2K,nUp,HQjb@?k,RqY/;%6gdhAnFTr);Fc_*<*r:jMu)0g\3hncm%)'kJY$X!2mNkGLfM8Qmka#"l02g9H;-6/fkA!Q4P7)UQ(&BI/UpT2/n]fAKR/$B,ja>RlXpD1W'=f^hQ!lW>]'Ycn7ETlS0dW39gS1'RHQo@Flg(f]iFkMLe\i0,JeR3]TAX<J>1MnjS\0K^Ka@8[:^Z&QGY,unfNX-01l)3+1l!i"dS?+caiL@ZTsO"'q:bYlE][d=>+J2rZVeklbL#i(ML"dno@L#(TL$;hZ-nfV6Dc'\-P4SZ0DhD/bP\s>haiIN`oNSthRA!8T9#KH1%DiH"MQq"q"Gd<.EZ4A6=<\7/5k+T9s`K;Vg0e.]D-j@IIlLiub^b'S\g*'.VWA4`3$=#5KjS=n!YZt.c41+Ik-F_pZZlcs#iCdQ>lIWuoPXE!.X?7KfY:E.?NB4CL9@\b6RTNucaXl"^\].L?U-ud;0o"2>%^Fppc85064q*K"B9SP<a`p;;$eqsVT-g=ALO.)LkY!gT*%*GA!tem;Gf0,($_.CDj[[;i8Q?'=:O[Uh4KFKSDoW$deWL`LN+5qD9K26H#LXM\Fth0Y=o&pKj1+`6gu<5'[,"b;D::k*Jl$3);tgn^hAUkQ+XX4SA\73<%B[!2esd-]egDQ_oqpZ8g)J=$Y?JT2pGsl&I=lAmB%p_@j7@jkfLs:cdhg)0QjM-`D22<CZ/%l4s7DQ&BKeqtbORXU\D(*6H`ZY]fa8)\Pc__dc25DW"3<Qg5%AZm"-eG,+gClaHi-!YiWr5V2^!tgjg):^J'71*LPh7=fFl8QDmf.A>FL)[-]d(Xh+F#9\#0Yi:=bFg8QY*c(?U.DC>^PP"8K&-p"bJCi>pVSqM`+kdJ.`G3<a(;:!Pt_45dG.0OM-CAUE8Wqpg)0E#m94h1PKMfJL3`qj-q7N7uarMOp2`OCc`1Fi$&":co$2S?'+&c5rrffQQrE4lJH]R4^*"W6,T$=q-tWLcE\`j]^PA-N]?7]8_o&"-?M"OT$WK!WEC!1?:H]Bfi"LGq7t1kO[9pIkJa-POYQuAGEYZ,2;Woe8+I?!7Jc6]'C&Ia=mk,B:.+t>p=Hn!&EuKhQA3hJo%bK"DB8.WuG]k1K5G<bLAeTE7&/Xnk%\U0-<AjI)'>0YkoNW">O0NO.\P[':QM-SZo;N7r6h6;V,JP7[I%a,KS"e<3^q;p]\2jE#^,_8G;`@:QrWnm@2kQV6;[DrUBg^<9'3^F/TYlGZ9..VCFK]Ts!"T6G>'4cmHDEM'>_d/I?R@2:UY:;'.sWIiO,CNAILCjb@W@pChO=r\k;`DqT9JS4C7:ePs4?JAZcJh(DT2ILGKuf6p.h"fs!qGL0+82#/"_,I9q::!3TT_m%MTN;>5gIg%<lm[A;\diI!d%D9`ff#%h8WX^b.6OSaF7&30.&5\gn6dSf.;?3X6_rh#mEQT$U:^o\_AHb=TQ9p_M^f&'dL!AJ]!ru3E0nLJhJ1RoeW7\4u+CM`ViCs_uW4L!,?F/1:kKAuQ=,*AdG*LO.$(r!,8d6oHh"#Aum_B(@>4DSMJ"d3"4qsB/30`PVe/e*u[Qo;]kHR)d<Ii1H`$5P[;H,g!*KX\7XZd@FpdP@?&*uO_(a9m'S5j]LUCk%(8Ut*iIGFpdW+-o9U`[_6L/2[D)CTAsmRo5@TJ/=ki=.+P^-.En*[PV.CW/3giT^PQc'r]hrZX1u9EF!Kfa(Y?AEua_"%igE$=K;[WP8+)!1Z4XA`=jSa(?e[2Q,u,.<&bHJ#eb&(2ocFfVf+r<gX)1Aj6IE9`P+ncA]P[*GXh?O&QVFVFuV&?U^^G=1AmqHrA1d[Z$;4eR#F!(H-gh1610=KTUE$dagE#DpiCOD]qs,7`pN/EqL.g@9<E,.W1\HIYV3/@'X%==u9Uro9Y>aFZHh5JjI;7:G&P@cS)1mr%Dl$J*O=_o-!DQlR9sVNq8XU0&$+A.<=TOW/'>@(S/=;6=l];mZ4'ik-;#)na?2DY\9=o+3RblH6"j2=nbGTpSm:KKSk)UpEr3f4*&qP;1bC]md66d9,TOjMC"tI5"+4t#52tP!RC)*$-:TAkPq=Kl,@nM=pd&@3ZEMhGEIEiBG:GCe&DU(@&s+M)b@DG#H$VJf)>i7YkfK/mFp#h'7^#K=8d4goANatq>b\-VM=QQ4E9Q:_(n^AVGnYr5tGH7D4Yk*qt_FL]eP>UP\4&!\P+K0_XfHML02+j^,lTF$ss<m!0=ZO>2Cd%p#BU,;jgT`\,0lUXU*9\m#,>Ci7=a[Eu=K5^TS2u-i~>endstream
+endobj
+10 0 obj
+<<
+/BaseFont /Helvetica-Oblique
+/Encoding /WinAnsiEncoding
+/Name /F3
+/Subtype /Type1
+/Type /Font
+>>
+endobj
+11 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (mailto\072lucaseespinosa93\100gmail\056com)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 123.0298 759.31 234.3448 767.6894 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+12 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057www\056linkedin\056com\057in\057lucasespinosaa\057)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 250.9836 759.31 307.498 767.6894 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+13 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057github\056com\057lucasees)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 324.1368 759.31 356.494 767.6894 ]
+/Subtype /Link
+/Type /Annot
+>>
+endobj
+14 0 obj
+<<
+/A <<
+/S /URI
+/Type /Action
+/URI (https\072\057\057lucasees\056github\056io\057portfolio\057)
+>>
+/Border [ 0 0 0 ]
+/Rect [ 373.1328 759.31 470.2126 767.6894 ]
+/Subtype /Link
+/Type /Annot
+>>
 endobj
 xref
-0 10
+0 15
 0000000000 65535 f 
-0000000061 00000 n 
-0000000112 00000 n 
-0000000219 00000 n 
-0000000331 00000 n 
-0000000446 00000 n 
-0000000649 00000 n 
-0000000717 00000 n 
-0000001038 00000 n 
-0000001097 00000 n 
+0000000015 00000 n 
+0000000054 00000 n 
+0000000113 00000 n 
+0000000162 00000 n 
+0000000456 00000 n 
+0000018076 00000 n 
+0000018183 00000 n 
+0000018290 00000 n 
+0000018402 00000 n 
+0000018511 00000 n 
+0000018627 00000 n 
+0000018820 00000 n 
+0000019037 00000 n 
+0000019229 00000 n 
 trailer
 <<
-/ID 
-[<9c24c97ffbbe86f40b1105e9eee63000><9c24c97ffbbe86f40b1105e9eee63000>]
-% ReportLab generated PDF document -- digest (opensource)
-
-/Info 7 0 R
-/Root 6 0 R
-/Size 10
+/Size 15
+/Root 3 0 R
+/Info 1 0 R
 >>
 startxref
-5272
+19438
 %%EOF
