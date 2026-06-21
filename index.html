@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Lucas Espinosa · Data Analyst</title>
+  <meta name="description" content="Portfolio de Lucas Espinosa, Data Analyst: SQL, Power BI, Tableau, Python y analítica digital (GA4)." />
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="#inicio" class="nav__brand">LE<span>.</span></a>
+      <nav class="nav__links">
+        <a href="#sobre-mi">Sobre mí</a>
+        <a href="#proyectos">Proyectos</a>
+        <a href="#skills">Skills</a>
+        <a href="#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO -->
+    <section id="inicio" class="hero">
+      <div class="hero__inner">
+        <p class="hero__eyebrow">Data Analyst · Valencia, España</p>
+        <h1 class="hero__title">Lucas Espinosa</h1>
+        <p class="hero__sub">
+          Convierto datos en decisiones. SQL · Power BI · Tableau · Python · Analítica digital (GA4).
+        </p>
+        <div class="hero__cta">
+          <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
+          <a href="CV_Lucas_Espinosa.pdf" class="btn btn--ghost" download>Descargar CV</a>
+          <a href="https://www.linkedin.com/in/lucasespinosaa/" class="btn btn--ghost" target="_blank" rel="noopener">LinkedIn</a>
+        </div>
+      </div>
+    </section>
+
+    <!-- SOBRE MI -->
+    <section id="sobre-mi" class="section">
+      <div class="section__inner">
+        <h2 class="section__title">Sobre mí</h2>
+        <p class="prose">
+          Data Analyst junior con base en análisis comercial B2B y sector público
+          (+5 años de experiencia) y formación en SQL, Python, Power BI, Tableau,
+          BigQuery y Google Analytics 4. He desarrollado cinco proyectos de análisis
+          de datos end-to-end —incluido un modelo de predicción de demanda con machine
+          learning— cubriendo ETL, análisis exploratorio, calidad del dato, modelado y
+          visualización en dashboards e informes.
+        </p>
+        <p class="prose">
+          Actualmente finalizando un Máster en Dirección de E-Commerce y Marketing
+          Digital (Universidad de Barcelona). Orientado a la toma de decisiones basada
+          en datos y habituado a colaborar con equipos de negocio y tecnología.
+        </p>
+      </div>
+    </section>
+
+    <!-- PROYECTOS -->
+    <section id="proyectos" class="section section--alt">
+      <div class="section__inner">
+        <h2 class="section__title">Proyectos de Data Analytics</h2>
+        <p class="section__lead">Cinco proyectos end-to-end con datos reales. Cada uno incluye su repositorio en GitHub.</p>
+        <div id="proyectos-grid" class="grid"></div>
+      </div>
+    </section>
+
+    <!-- SKILLS -->
+    <section id="skills" class="section">
+      <div class="section__inner">
+        <h2 class="section__title">Habilidades técnicas</h2>
+        <div class="skills">
+          <div class="skill-group">
+            <h3>Datos y BI</h3>
+            <div class="tags">
+              <span>SQL Server</span><span>PostgreSQL</span><span>MySQL</span><span>BigQuery</span>
+              <span>Power BI</span><span>Tableau</span><span>Looker Studio</span><span>Excel avanzado</span>
+              <span>Python</span><span>pandas</span><span>NumPy</span><span>scikit-learn</span>
+              <span>matplotlib</span><span>seaborn</span><span>ETL</span><span>Estadística descriptiva</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Analítica digital</h3>
+            <div class="tags">
+              <span>Google Analytics 4</span><span>Google Tag Manager</span><span>Google Ads</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Herramientas</h3>
+            <div class="tags">
+              <span>VS Code</span><span>GitHub</span><span>Jupyter</span><span>Google Workspace</span>
+            </div>
+          </div>
+          <div class="skill-group">
+            <h3>Idiomas</h3>
+            <div class="tags">
+              <span>Español (nativo)</span><span>Inglés (básico, en mejora)</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACTO -->
+    <section id="contacto" class="section section--alt">
+      <div class="section__inner section__inner--center">
+        <h2 class="section__title">Contacto</h2>
+        <p class="section__lead">¿Buscas un Data Analyst? Hablemos.</p>
+        <div class="contact">
+          <a class="contact__item" href="mailto:lucaseespinosa93@gmail.com">
+            <span class="contact__label">Email</span>
+            lucaseespinosa93@gmail.com
+          </a>
+          <a class="contact__item" href="https://www.linkedin.com/in/lucasespinosaa/" target="_blank" rel="noopener">
+            <span class="contact__label">LinkedIn</span>
+            /in/lucasespinosaa
+          </a>
+          <a class="contact__item" href="https://github.com/lucasees" target="_blank" rel="noopener">
+            <span class="contact__label">GitHub</span>
+            github.com/lucasees
+          </a>
+          <a class="contact__item" href="tel:+34644839621">
+            <span class="contact__label">Teléfono</span>
+            +34 644 839 621
+          </a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer class="footer">
+    <p>© <span id="year"></span> Lucas Espinosa · Data Analyst</p>
+  </footer>
+
+  <script src="projects.js"></script>
+  <script src="main.js"></script>
+</body>
+</html>
