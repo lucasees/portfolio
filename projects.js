@@ -75,4 +75,17 @@ const PROYECTOS = [
     ],
     github: "https://github.com/lucasees/proyecto3-churn-analysis",
   },
-];
+{
+    titulo: "Mapa de Inversión Inmobiliaria de Valencia",
+    stack: "Python · geopandas · LightGBM · folium · Power BI",
+    descripcion:
+      "Análisis de inversión inmobiliaria sobre 33.622 viviendas reales en Valencia: rentabilidad de alquiler por barrio, detección de barrios sobre/infravalorados con Machine Learning, mapa interactivo, y dashboard ejecutivo en Power BI para inmobiliarias.",
+    metricas: [
+      "33.622 viviendas reales, 73 barrios (idealista18)",
+      "Modelo ML: MAE 244 €/m² (14,3% error relativo)",
+      "Mapa interactivo + dashboard ejecutivo en Power BI",
+    ],
+    github: "https://github.com/lucasees/proyecto5-inmobiliario-valencia",
+    destacado: true,
+  },];
+
