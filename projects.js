@@ -87,5 +87,17 @@ const PROYECTOS = [
     ],
     github: "https://github.com/lucasees/proyecto5-inmobiliario-valencia",
     destacado: true,
+  },{
+    titulo: "Análisis Comercial de un Distribuidor Industrial B2B/B2C",
+    stack: "Python · Excel/Power Query · SQL Server · Power BI",
+    descripcion:
+      "Análisis de ventas de un distribuidor industrial ficticio (metal, plástico, componentes, herramientas y packaging). Limpieza de datos sucios a gran escala (~100.000 registros) y detección de 5 oportunidades de negocio concretas mediante SQL y un dashboard ejecutivo en Power BI.",
+    metricas: [
+      "~100.000 líneas de pedido analizadas",
+      "5 oportunidades de negocio detectadas y cuantificadas",
+      "Dashboard ejecutivo en Power BI conectado a vistas SQL",
+    ],
+    github: "https://github.com/lucasees/proyecto6-analisis-comercial-industrial",
+    destacado: true,
   },];
 
