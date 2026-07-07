@@ -13,20 +13,6 @@
 
 const PROYECTOS = [
   {
-    titulo: "Mapa de Inversión Inmobiliaria de Valencia",
-    stack: "Python · GeoPandas · LightGBM · Folium · scikit-learn",
-    descripcion:
-      "Análisis de 33.622 viviendas reales de Valencia (idealista18) para detectar barrios con mejor rentabilidad de alquiler y anomalías de valoración, con un mapa de calor interactivo.",
-    metricas: [
-      "33.622 viviendas",
-      "Modelo MAE 244 €/m² (14,3%)",
-      "Top rentabilidad: Ciutat Fallera 7,50%",
-      "Infravalorado: El Calvari −8,3%",
-    ],
-    github: "https://github.com/lucasees/proyecto5-inmobiliario-valencia",
-    destacado: true,
-  },
-  {
     titulo: "Predicción de Demanda con Machine Learning",
     stack: "Python · LightGBM",
     descripcion:
