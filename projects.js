@@ -29,7 +29,7 @@ const PROYECTOS = [
     titulo: "Análisis Comercial B2B",
     stack: "SQL Server · Power BI",
     descripcion:
-      "Segmentación RFM, análisis de cohortes e identificación de tendencias y desviaciones sobre 1.747 registros B2B, con un cuadro de mando de KPIs comerciales.",
+      "Segmentación RFM, análisis de cohortes e identificación de tendencias y desviaciones sobre un dataset B2B simulado de 1.747 registros, con un cuadro de mando de KPIs comerciales.",
     metricas: [
       "1.747 registros · 5 tablas",
       "Segmentación RFM y cohortes",
