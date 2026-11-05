@@ -13,14 +13,14 @@ URL de mi portfolio: https://lucasees.github.io/portfolio/
 El único archivo que edito es:
 
 ```
-/Users/lucas/Desktop/Lucas/Personal/portfolio/projects.js
+/Users/lucas/Proyectos/portfolio/projects.js
 ```
 
 Lo abro con el editor que prefiera (VS Code, TextEdit, etc.).
 Forma rápida desde la terminal:
 
 ```bash
-cd ~/Desktop/Lucas/Personal/portfolio
+cd ~/Proyectos/portfolio
 open -a "Visual Studio Code" projects.js
 ```
 
@@ -105,7 +105,7 @@ Cada tarjeta muestra una imagen arriba (un dashboard o gráfico del proyecto).
 Guardo una captura en la carpeta `imagenes/`:
 
 ```
-/Users/lucas/Desktop/Lucas/Personal/portfolio/imagenes/mi-proyecto-nuevo.png
+/Users/lucas/Proyectos/portfolio/imagenes/mi-proyecto-nuevo.png
 ```
 
 - El nombre del archivo tiene que coincidir con lo que puse en `imagen:` en el PASO 2.
@@ -121,7 +121,7 @@ Guardo una captura en la carpeta `imagenes/`:
 Abro la web localmente para revisar que se vea bien:
 
 ```bash
-cd ~/Desktop/Lucas/Personal/portfolio
+cd ~/Proyectos/portfolio
 open index.html
 ```
 
@@ -136,14 +136,14 @@ Desde la terminal, dentro de la carpeta del portfolio, ejecuto estos 4 comandos
 uno por uno:
 
 ```bash
-cd ~/Desktop/Lucas/Personal/portfolio
+cd ~/Proyectos/portfolio
 git add projects.js imagenes/
 git commit -m "Agrego proyecto: Análisis de Ventas Retail 2026"
 git push
 ```
 
 Qué hace cada comando:
-- `cd ~/Desktop/Lucas/Personal/portfolio` → entro a la carpeta del portfolio.
+- `cd ~/Proyectos/portfolio` → entro a la carpeta del portfolio.
 - `git add projects.js imagenes/` → marco el archivo de proyectos Y la imagen nueva para subir.
 - `git commit -m "..."` → guardo el cambio con un mensaje (cambio el texto por el nombre de mi proyecto).
 - `git push` → lo subo a GitHub.
