@@ -8,10 +8,39 @@
 //   - descripcion: 1-2 frases explicando el proyecto
 //   - metricas:    lista de resultados clave (badges)
 //   - github:      URL del repo
+//   - imagen:      ruta de la captura (si falta, usa imagenes/proyectoN.png según la posición)
 //   - destacado:   true para resaltar la tarjeta (opcional)
 // =============================================================
 
 const PROYECTOS = [
+  {
+    titulo: "Análisis Comercial de un Distribuidor Industrial B2B/B2C",
+    stack: "Python · Excel/Power Query · SQL Server · Power BI",
+    descripcion:
+      "Análisis de ventas de un distribuidor industrial ficticio (metal, plástico, componentes, herramientas y packaging). Limpieza de datos sucios a gran escala (~100.000 registros) y detección de 5 oportunidades de negocio concretas mediante SQL y un dashboard ejecutivo en Power BI.",
+    metricas: [
+      "~100.000 líneas de pedido analizadas",
+      "5 oportunidades de negocio detectadas y cuantificadas",
+      "Dashboard ejecutivo en Power BI conectado a vistas SQL",
+    ],
+    github: "https://github.com/lucasees/proyecto6-analisis-comercial-industrial",
+    imagen: "imagenes/proyecto6.png",
+    destacado: true,
+  },
+  {
+    titulo: "Mapa de Inversión Inmobiliaria de Valencia",
+    stack: "Python · geopandas · LightGBM · scikit-learn · folium · Power BI",
+    descripcion:
+      "33.622 anuncios reales de compra (idealista18, 2018). Un modelo LightGBM predice el precio por m² según la vivienda y su ubicación, y la diferencia con el precio real señala qué barrios están sobre o infravalorados. Mapa interactivo de 73 barrios y tablero en Power BI. La rentabilidad de alquiler es estimada: no hay datos públicos de alquiler por barrio.",
+    metricas: [
+      "33.622 viviendas reales, 73 barrios",
+      "Modelo de precio: MAE 244 €/m² (14,3%)",
+      "Más infravalorado: El Calvari (−8,3%)",
+    ],
+    github: "https://github.com/lucasees/proyecto5-inmobiliario-valencia",
+    imagen: "imagenes/proyecto5.png",
+    destacado: true,
+  },
   {
     titulo: "Predicción de Demanda con Machine Learning",
     stack: "Python · LightGBM · scikit-learn",
@@ -23,31 +52,8 @@ const PROYECTOS = [
       "Costo del error −68% (costos supuestos)",
     ],
     github: "https://github.com/lucasees/proyecto4-demanda-favorita",
+    imagen: "imagenes/proyecto1.png",
     destacado: true,
-  },
-  {
-    titulo: "Análisis Comercial B2B",
-    stack: "SQL Server · Power BI",
-    descripcion:
-      "Segmentación RFM, análisis de cohortes e identificación de tendencias y desviaciones sobre un dataset B2B simulado de 1.747 registros, con un cuadro de mando de KPIs comerciales.",
-    metricas: [
-      "1.747 registros · 5 tablas",
-      "Segmentación RFM y cohortes",
-      "Dashboard de KPIs en Power BI",
-    ],
-    github: "https://github.com/lucasees/proyecto1-analisis-b2b",
-  },
-  {
-    titulo: "E-Commerce Analytics — Google Merchandise Store",
-    stack: "BigQuery · SQL · Looker Studio",
-    descripcion:
-      "903.653 sesiones reales del dataset público de Google Analytics en BigQuery (Universal Analytics, 2016-2017): conversión por canal y dispositivo, embudo, cohortes y revenue, con tablero público en Looker Studio.",
-    metricas: [
-      "8 consultas SQL en BigQuery",
-      "Referral: 5,3% de conversión vs. 1,3% general",
-      "Tablero público en Looker Studio",
-    ],
-    github: "https://github.com/lucasees/proyecto2-ecommerce-analytics",
   },
   {
     titulo: "Análisis de Churn con Python",
@@ -60,30 +66,32 @@ const PROYECTOS = [
       "42,7% en contratos mensuales vs. 2,8% bianuales",
     ],
     github: "https://github.com/lucasees/proyecto3-churn-analysis",
+    imagen: "imagenes/proyecto4.png",
   },
-{
-    titulo: "Mapa de Inversión Inmobiliaria de Valencia",
-    stack: "Python · geopandas · LightGBM · scikit-learn · folium · Power BI",
+  {
+    titulo: "Análisis Comercial B2B",
+    stack: "SQL Server · Power BI",
     descripcion:
-      "33.622 anuncios reales de compra (idealista18, 2018). Un modelo LightGBM predice el precio por m² según la vivienda y su ubicación, y la diferencia con el precio real señala qué barrios están sobre o infravalorados. Mapa interactivo de 73 barrios y tablero en Power BI. La rentabilidad de alquiler es estimada: no hay datos públicos de alquiler por barrio.",
+      "Segmentación RFM, análisis de cohortes e identificación de tendencias y desviaciones sobre un dataset B2B simulado de 1.747 registros, con un cuadro de mando de KPIs comerciales.",
     metricas: [
-      "33.622 viviendas reales, 73 barrios",
-      "Modelo de precio: MAE 244 €/m² (14,3%)",
-      "Más infravalorado: El Calvari (−8,3%)",
+      "1.747 registros · 5 tablas",
+      "Segmentación RFM y cohortes",
+      "Dashboard de KPIs en Power BI",
     ],
-    github: "https://github.com/lucasees/proyecto5-inmobiliario-valencia",
-    destacado: true,
-  },{
-    titulo: "Análisis Comercial de un Distribuidor Industrial B2B/B2C",
-    stack: "Python · Excel/Power Query · SQL Server · Power BI",
+    github: "https://github.com/lucasees/proyecto1-analisis-b2b",
+    imagen: "imagenes/proyecto2.png",
+  },
+  {
+    titulo: "E-Commerce Analytics — Google Merchandise Store",
+    stack: "BigQuery · SQL · Looker Studio",
     descripcion:
-      "Análisis de ventas de un distribuidor industrial ficticio (metal, plástico, componentes, herramientas y packaging). Limpieza de datos sucios a gran escala (~100.000 registros) y detección de 5 oportunidades de negocio concretas mediante SQL y un dashboard ejecutivo en Power BI.",
+      "903.653 sesiones reales del dataset público de Google Analytics en BigQuery (Universal Analytics, 2016-2017): conversión por canal y dispositivo, embudo, cohortes y revenue, con tablero público en Looker Studio.",
     metricas: [
-      "~100.000 líneas de pedido analizadas",
-      "5 oportunidades de negocio detectadas y cuantificadas",
-      "Dashboard ejecutivo en Power BI conectado a vistas SQL",
+      "8 consultas SQL en BigQuery",
+      "Referral: 5,3% de conversión vs. 1,3% general",
+      "Tablero público en Looker Studio",
     ],
-    github: "https://github.com/lucasees/proyecto6-analisis-comercial-industrial",
-    destacado: true,
-  },];
-
+    github: "https://github.com/lucasees/proyecto2-ecommerce-analytics",
+    imagen: "imagenes/proyecto3.png",
+  },
+];
