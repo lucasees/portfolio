@@ -65,11 +65,11 @@ const PROYECTOS = [
     titulo: "Mapa de Inversión Inmobiliaria de Valencia",
     stack: "Python · geopandas · LightGBM · folium · Power BI",
     descripcion:
-      "Análisis de inversión inmobiliaria sobre 33.622 viviendas reales en Valencia: rentabilidad de alquiler por barrio, detección de barrios sobre/infravalorados con Machine Learning, mapa interactivo, y dashboard ejecutivo en Power BI para inmobiliarias.",
+      "33.622 anuncios reales de compra (idealista18, 2018). Un modelo LightGBM predice el precio por m² según la vivienda y su ubicación, y la diferencia con el precio real señala qué barrios están sobre o infravalorados. Mapa interactivo de 73 barrios y tablero en Power BI. La rentabilidad de alquiler es estimada: no hay datos públicos de alquiler por barrio.",
     metricas: [
-      "33.622 viviendas reales, 73 barrios (idealista18)",
-      "Modelo ML: MAE 244 €/m² (14,3% error relativo)",
-      "Mapa interactivo + dashboard ejecutivo en Power BI",
+      "33.622 viviendas reales, 73 barrios",
+      "Modelo de precio: MAE 244 €/m² (14,3%)",
+      "Más infravalorado: El Calvari (−8,3%)",
     ],
     github: "https://github.com/lucasees/proyecto5-inmobiliario-valencia",
     destacado: true,
