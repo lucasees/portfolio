@@ -38,14 +38,14 @@ const PROYECTOS = [
     github: "https://github.com/lucasees/proyecto1-analisis-b2b",
   },
   {
-    titulo: "E-Commerce Analytics (GA4)",
-    stack: "BigQuery · Looker Studio · GA4",
+    titulo: "E-Commerce Analytics — Google Merchandise Store",
+    stack: "BigQuery · SQL · Looker Studio",
     descripcion:
-      "Datos reales de Google Merchandise Store: comportamiento de usuario, conversión por canal y revenue, con cuadro de mando público en Looker Studio.",
+      "903.653 sesiones reales del dataset público de Google Analytics en BigQuery (Universal Analytics, 2016-2017): conversión por canal y dispositivo, embudo, cohortes y revenue, con tablero público en Looker Studio.",
     metricas: [
       "8 consultas SQL en BigQuery",
-      "Conversión por canal y revenue",
-      "Dashboard público en Looker Studio",
+      "Referral: 5,3% de conversión vs. 1,3% general",
+      "Tablero público en Looker Studio",
     ],
     github: "https://github.com/lucasees/proyecto2-ecommerce-analytics",
   },
