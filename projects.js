@@ -14,7 +14,7 @@
 const PROYECTOS = [
   {
     titulo: "Predicción de Demanda con Machine Learning",
-    stack: "Python · LightGBM",
+    stack: "Python · LightGBM · scikit-learn",
     descripcion:
       "Previsión diaria de demanda para 18 tiendas de Corporación Favorita (datos reales). Comparo el modelo con dos referencias y traduzco el error a costo con costos asimétricos supuestos: faltar cuesta 1,5 veces más que sobrar.",
     metricas: [
@@ -51,7 +51,7 @@ const PROYECTOS = [
   },
   {
     titulo: "Análisis de Churn con Python",
-    stack: "Python · pandas · scikit-learn",
+    stack: "Python · pandas · seaborn",
     descripcion:
       "Análisis exploratorio de 7.043 clientes de telecomunicaciones para identificar las principales palancas de retención y reducción de la fuga de clientes.",
     metricas: [
@@ -63,7 +63,7 @@ const PROYECTOS = [
   },
 {
     titulo: "Mapa de Inversión Inmobiliaria de Valencia",
-    stack: "Python · geopandas · LightGBM · folium · Power BI",
+    stack: "Python · geopandas · LightGBM · scikit-learn · folium · Power BI",
     descripcion:
       "33.622 anuncios reales de compra (idealista18, 2018). Un modelo LightGBM predice el precio por m² según la vivienda y su ubicación, y la diferencia con el precio real señala qué barrios están sobre o infravalorados. Mapa interactivo de 73 barrios y tablero en Power BI. La rentabilidad de alquiler es estimada: no hay datos públicos de alquiler por barrio.",
     metricas: [
