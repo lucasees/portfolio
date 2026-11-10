@@ -63,8 +63,8 @@ const PROYECTOS = [
   {
     titulo: "Análisis Comercial B2B",
     pregunta: "¿Qué clientes B2B valen más y cuáles se están enfriando?",
-    cifra: "RFM",
-    cifraTexto: "segmentación y cohortes de retención sobre 1.747 registros en 5 tablas, con tablero de KPIs.",
+    cifra: "69%",
+    cifraTexto: "de la facturación viene de 16 de 40 clientes, según la segmentación RFM; otros 8 están en riesgo.",
     datos: "Dataset simulado · 1.747 registros",
     stack: "SQL Server · Power BI",
     github: "https://github.com/lucasees/proyecto1-analisis-b2b",
