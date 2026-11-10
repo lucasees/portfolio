@@ -9,19 +9,19 @@
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://lucasees.github.io/portfolio/" />
   <meta property="og:title" content="Lucas Espinosa · Analista de Datos de Negocio" />
-  <meta property="og:description" content="6 proyectos end-to-end: SQL, Power BI, Python, BigQuery y GA4. Análisis, modelado y dashboards orientados a negocio." />
+  <meta property="og:description" content="6 proyectos end-to-end: SQL, Power BI, Python y BigQuery. Análisis, modelado y dashboards orientados a negocio." />
   <meta property="og:image" content="https://lucasees.github.io/portfolio/og-image.png" />
   <meta property="og:image:width" content="1200" />
   <meta property="og:image:height" content="630" />
   <meta name="twitter:card" content="summary_large_image" />
   <meta name="twitter:title" content="Lucas Espinosa · Analista de Datos de Negocio" />
-  <meta name="twitter:description" content="6 proyectos end-to-end: SQL, Power BI, Python, BigQuery y GA4." />
+  <meta name="twitter:description" content="6 proyectos end-to-end: SQL, Power BI, Python y BigQuery." />
   <meta name="twitter:image" content="https://lucasees.github.io/portfolio/og-image.png" />
 
   <link rel="preconnect" href="https://fonts.googleapis.com" />
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet" />
-  <link rel="stylesheet" href="styles.css" />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="styles.css?v=6" />
 </head>
 <body>
 
@@ -31,7 +31,7 @@
       <nav class="nav__links">
         <a href="#sobre-mi">Sobre mí</a>
         <a href="#proyectos">Proyectos</a>
-        <a href="#skills">Skills</a>
+        <a href="#herramientas">Herramientas</a>
         <a href="#contacto">Contacto</a>
       </nav>
     </div>
@@ -42,14 +42,15 @@
     <section id="inicio" class="hero">
       <div class="hero__inner">
         <div class="hero__text">
-          <p class="hero__eyebrow">Analista de Datos de Negocio · San Juan, Argentina (desde diciembre de 2026)</p>
-          <h1 class="hero__title">Lucas Espinosa</h1>
+          <p class="hero__eyebrow label">Analista de datos de negocio · San Juan, Argentina (desde diciembre de 2026)</p>
+          <p class="hero__name">Lucas Espinosa</p>
+          <h1 class="hero__title">Encuentro dónde se traba un negocio y lo mido.</h1>
           <p class="hero__sub">
-            Convierto datos comerciales en decisiones. Vengo del negocio: Licenciado en
-            Administración de Empresas y Máster en Dirección de E-Commerce y Marketing Digital
-            por la Universidad de Barcelona.
+            Vengo de la gestión: coordiné áreas de la Secretaría de Gobierno de San Juan
+            y armé desde cero el CRM de una distribuidora B2B en Valencia. Hoy hago ese
+            trabajo con SQL, Python y Power BI.
           </p>
-          <p class="hero__stack">SQL · Python · Power BI · Tableau · Google Analytics 4</p>
+          <p class="hero__stack label">SQL · Python · Power BI · Tableau · Google Analytics 4</p>
           <div class="hero__cta">
             <a href="#proyectos" class="btn btn--primary">Ver proyectos</a>
             <a href="CV_Lucas_Espinosa.pdf" class="btn btn--ghost" download>Descargar CV</a>
@@ -61,36 +62,104 @@
                onerror="this.closest('.hero__photo').style.display='none'" />
         </div>
       </div>
+
+      <!-- MEDICIÓN: barras a escala real (120 h frente a 24 h) -->
+      <div class="measure">
+        <div class="measure__panel">
+          <div class="measure__head">
+            <h2 class="measure__title">Tiempo de respuesta al cliente</h2>
+            <span class="label">Medición real · Sucnatur, Valencia</span>
+          </div>
+          <dl class="measure__rows">
+            <div class="measure__row">
+              <dt class="label">Antes</dt>
+              <dd class="measure__track"><div class="measure__bar" style="--w: 100%"></div></dd>
+              <dd class="measure__value">5 días</dd>
+            </div>
+            <div class="measure__row">
+              <dt class="label">Con el CRM</dt>
+              <dd class="measure__track"><div class="measure__bar measure__bar--after" style="--w: 20%"></div></dd>
+              <dd class="measure__value measure__value--after">24 h</dd>
+            </div>
+          </dl>
+          <div class="measure__foot">
+            <span>Armé un CRM desde cero que centralizó ~70 clientes.</span>
+            <span class="measure__delta">−80% de tiempo de espera</span>
+          </div>
+        </div>
+        <div class="facts">
+          <a class="fact" href="casos/industrial.html">
+            <p class="fact__num">5</p>
+            <p class="fact__text">oportunidades de negocio cuantificadas tras limpiar ~100.000 líneas de pedido.</p>
+            <p class="fact__src label">Ver caso: distribuidor industrial →</p>
+          </a>
+          <a class="fact" href="https://github.com/lucasees/proyecto4-demanda-favorita" target="_blank" rel="noopener">
+            <p class="fact__num">−31,5%</p>
+            <p class="fact__text">de error frente a repetir la venta de la semana anterior, en 18 supermercados reales.</p>
+            <p class="fact__src label">Ver código: previsión de demanda →</p>
+          </a>
+        </div>
+      </div>
     </section>
 
     <!-- SOBRE MI -->
-    <section id="sobre-mi" class="section">
-      <div class="section__inner">
-        <h2 class="section__title">Sobre mí</h2>
-        <p class="prose">
-          Soy analista de datos de negocio, y llegué al análisis por un camino poco habitual:
-          primero aprendí a entender cómo funciona una organización por dentro, y recién
-          después a analizarla con código.
-        </p>
-        <p class="prose">
-          Durante cuatro años fui asesor del Secretario de Gobierno de San Juan. Coordinaba
-          12 áreas y hacía de nexo entre la dirección y el trabajo diario. Después armé un
-          negocio propio, terminé la licenciatura y me mudé a España. Hoy, en Sucnatur
-          (distribuidora alimentaria B2B en Valencia), analizo los datos comerciales y llevo el
-          marketing digital: monté un CRM desde cero que bajó el tiempo de respuesta al cliente
-          de 5 días a 24 horas, y la optimización de las campañas mejoró la conversión un 25%.
-        </p>
-        <p class="prose">
-          Esa mirada de negocio es la base de mi parte técnica: seis proyectos end-to-end
-          —ETL, análisis exploratorio, machine learning y dashboards— en
-          SQL, Python, Power BI, Tableau, BigQuery y Google Analytics 4. En todos busco lo
-          mismo: que el análisis termine en una decisión.
-        </p>
+    <section id="sobre-mi" class="section section--alt">
+      <div class="section__inner story">
+        <div class="story__text">
+          <h2 class="section__title">Cómo llegué hasta acá</h2>
+          <p class="prose">
+            Con 26 años me tocó coordinar áreas de la Secretaría de Gobierno de la
+            Municipalidad de San Juan: la administración, los proyectos y su ejecución
+            pasaban por mis manos. Ahí aprendí cómo funciona una organización por dentro.
+          </p>
+          <p class="prose">
+            En 2024 terminé la licenciatura mientras llevaba un emprendimiento inmobiliario
+            propio. Y en 2025 hice lo más difícil hasta ahora: dejar todo y empezar de cero en
+            España. Mi primer trabajo fue cualificar leads de inversores. Después llegó
+            Sucnatur, donde armé un CRM desde cero que bajó la respuesta al cliente de
+            5 días a 24 horas, mientras cursaba un máster en la Universidad de Barcelona.
+          </p>
+          <p class="prose">
+            Emigrar tuvo días muy frustrantes. Aprendí a no quedarme ahí, a corregir y
+            seguir. <strong>Soy joven, pero no empiezo de cero.</strong>
+          </p>
+          <p class="prose">
+            En diciembre vuelvo a San Juan con todo lo aprendido. Busco un equipo donde los
+            datos estén cerca de las ventas, las operaciones o el marketing.
+          </p>
+        </div>
+        <ol class="timeline" aria-label="Trayectoria">
+          <li>
+            <p class="timeline__when label">2019 – 2023</p>
+            <p class="timeline__what">Municipalidad de San Juan</p>
+            <p class="timeline__detail">Coordinación de áreas de la Secretaría de Gobierno</p>
+          </li>
+          <li>
+            <p class="timeline__when label">2024</p>
+            <p class="timeline__what">Tesis y emprendimiento propio</p>
+            <p class="timeline__detail">Licenciatura en Administración de Empresas (Siglo 21) y negocio inmobiliario en San Juan</p>
+          </li>
+          <li>
+            <p class="timeline__when label">2025</p>
+            <p class="timeline__what">Empezar de cero en Valencia</p>
+            <p class="timeline__detail">Inventoro Pro y, desde junio, Sucnatur: CRM, Power BI y GA4</p>
+          </li>
+          <li>
+            <p class="timeline__when label">2025 – 2026</p>
+            <p class="timeline__what">Máster en la Universidad de Barcelona</p>
+            <p class="timeline__detail">Dirección de E-Commerce y Marketing Digital</p>
+          </li>
+          <li class="timeline__now">
+            <p class="timeline__when label">Diciembre 2026</p>
+            <p class="timeline__what">De vuelta en San Juan</p>
+            <p class="timeline__detail">Disponible para empezar</p>
+          </li>
+        </ol>
       </div>
     </section>
 
     <!-- PROYECTOS -->
-    <section id="proyectos" class="section section--alt">
+    <section id="proyectos" class="section">
       <div class="section__inner">
         <h2 class="section__title">Proyectos de Data Analytics</h2>
         <p class="section__lead">Seis proyectos end-to-end, con datos públicos reales y datasets de negocio simulados. Cada uno incluye su repositorio en GitHub.</p>
@@ -98,51 +167,77 @@
       </div>
     </section>
 
-    <!-- SKILLS -->
-    <section id="skills" class="section">
+    <!-- HERRAMIENTAS -->
+    <section id="herramientas" class="section section--alt">
       <div class="section__inner">
-        <h2 class="section__title">Habilidades técnicas</h2>
-        <div class="skills">
-          <div class="skill-group">
-            <h3>Datos y BI</h3>
-            <div class="tags">
-              <span>SQL Server</span><span>PostgreSQL</span><span>MySQL</span><span>BigQuery</span>
-              <span>Power BI</span><span>Tableau</span><span>Looker Studio</span><span>Excel avanzado</span>
-              <span>Python</span><span>pandas</span><span>NumPy</span><span>scikit-learn</span>
-              <span>matplotlib</span><span>seaborn</span><span>ETL</span><span>Estadística descriptiva</span>
-            </div>
+        <h2 class="section__title">Herramientas y dónde las usé</h2>
+        <p class="section__lead">Cada herramienta, con el trabajo que la demuestra.</p>
+        <dl class="evidence">
+          <div class="evidence__row">
+            <dt>SQL</dt>
+            <dd>
+              <span class="evidence__detail">SQL Server · BigQuery</span>
+              <span class="evidence__links"><a href="casos/industrial.html">Distribuidor industrial</a><a href="https://github.com/lucasees/proyecto1-analisis-b2b" target="_blank" rel="noopener">B2B</a><a href="https://github.com/lucasees/proyecto2-ecommerce-analytics" target="_blank" rel="noopener">E-commerce</a></span>
+            </dd>
           </div>
-          <div class="skill-group">
-            <h3>Analítica digital</h3>
-            <div class="tags">
-              <span>Google Analytics 4</span><span>Google Tag Manager</span><span>Google Ads</span>
-            </div>
+          <div class="evidence__row">
+            <dt>Python</dt>
+            <dd>
+              <span class="evidence__detail">pandas · scikit-learn · LightGBM · geopandas · seaborn</span>
+              <span class="evidence__links"><a href="casos/favorita.html">Demanda</a><a href="casos/valencia.html">Valencia</a><a href="https://github.com/lucasees/proyecto3-churn-analysis" target="_blank" rel="noopener">Churn</a></span>
+            </dd>
           </div>
-          <div class="skill-group">
-            <h3>Herramientas</h3>
-            <div class="tags">
-              <span>VS Code</span><span>GitHub</span><span>Jupyter</span><span>Google Workspace</span>
-            </div>
+          <div class="evidence__row">
+            <dt>Power BI</dt>
+            <dd>
+              <span class="evidence__detail">Tableros conectados a vistas SQL</span>
+              <span class="evidence__links"><a href="casos/industrial.html">Distribuidor industrial</a><a href="casos/valencia.html">Valencia</a><a href="https://github.com/lucasees/proyecto1-analisis-b2b" target="_blank" rel="noopener">B2B</a><span>Sucnatur: KPIs comerciales</span></span>
+            </dd>
           </div>
-          <div class="skill-group">
-            <h3>Idiomas</h3>
-            <div class="tags">
-              <span>Español (nativo)</span><span>Inglés (básico, en mejora)</span>
-            </div>
+          <div class="evidence__row">
+            <dt>Excel / Power Query</dt>
+            <dd>
+              <span class="evidence__detail">Limpieza de datos con formatos mezclados</span>
+              <span class="evidence__links"><a href="casos/industrial.html">Distribuidor industrial</a></span>
+            </dd>
           </div>
+          <div class="evidence__row">
+            <dt>Looker Studio</dt>
+            <dd>
+              <span class="evidence__detail">Tablero público</span>
+              <span class="evidence__links"><a href="https://github.com/lucasees/proyecto2-ecommerce-analytics" target="_blank" rel="noopener">E-commerce</a></span>
+            </dd>
+          </div>
+          <div class="evidence__row">
+            <dt>Google Analytics 4</dt>
+            <dd>
+              <span class="evidence__detail">Medición de campañas · Search Console</span>
+              <span class="evidence__links"><span>Sucnatur: +25% de conversión</span><span>Certificación de Google (2026)</span></span>
+            </dd>
+          </div>
+        </dl>
+        <div class="also">
+          <p class="also__title label">También trabajo con</p>
+          <p class="also__list">Tableau · PostgreSQL · MySQL · Google Tag Manager · Google Ads · SAP S/4HANA MM · GitHub · Jupyter</p>
+          <p class="also__title label">Idiomas</p>
+          <p class="also__list">Español (nativo) · Inglés (básico, en progreso; objetivo C1)</p>
         </div>
       </div>
     </section>
 
     <!-- CONTACTO -->
-    <section id="contacto" class="section section--alt">
+    <section id="contacto" class="section">
       <div class="section__inner section__inner--center">
         <h2 class="section__title">Contacto</h2>
-        <p class="section__lead">¿Necesitás un analista de datos? Hablemos.</p>
+        <p class="section__lead">Disponible en San Juan desde diciembre de 2026, o en remoto para Argentina.</p>
         <div class="contact">
           <a class="contact__item" href="mailto:lucaseespinosa93@gmail.com">
             <span class="contact__label">Email</span>
             lucaseespinosa93@gmail.com
+          </a>
+          <a class="contact__item" href="https://wa.me/34644839621" target="_blank" rel="noopener">
+            <span class="contact__label">WhatsApp</span>
+            +34 644 839 621
           </a>
           <a class="contact__item" href="https://www.linkedin.com/in/lucasespinosaa/" target="_blank" rel="noopener">
             <span class="contact__label">LinkedIn</span>
@@ -151,10 +246,6 @@
           <a class="contact__item" href="https://github.com/lucasees" target="_blank" rel="noopener">
             <span class="contact__label">GitHub</span>
             github.com/lucasees
-          </a>
-          <a class="contact__item" href="tel:+34644839621">
-            <span class="contact__label">Teléfono</span>
-            +34 644 839 621
           </a>
         </div>
       </div>
@@ -165,7 +256,7 @@
     <p>© <span id="year"></span> Lucas Espinosa · Analista de Datos de Negocio</p>
   </footer>
 
-  <script src="projects.js"></script>
-  <script src="main.js"></script>
+  <script src="projects.js?v=4"></script>
+  <script src="main.js?v=4"></script>
 </body>
 </html>

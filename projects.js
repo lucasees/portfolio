@@ -1,96 +1,82 @@
 // =============================================================
 //  TUS PROYECTOS
 //  Para agregar uno nuevo: copia un bloque { ... } y pegalo
-//  al final de la lista. La web lo dibuja sola.
+//  donde quieras que aparezca (el orden de la lista es el de la web).
 //  Campos:
-//   - titulo:      nombre del proyecto
-//   - stack:       tecnologias separadas por " · "
-//   - descripcion: 1-2 frases explicando el proyecto
-//   - metricas:    lista de resultados clave (badges)
+//   - titulo:      nombre del proyecto (el mismo que en el CV)
+//   - pregunta:    la pregunta de negocio que responde (es el titular de la tarjeta)
+//   - cifra:       el resultado clave, corto (ej. "−31,5%")
+//   - cifraTexto:  qué significa esa cifra, en una frase
+//   - datos:       origen de los datos (ej. "Datos reales · 18 tiendas" o "Dataset simulado")
+//   - stack:       tecnologías separadas por " · "
 //   - github:      URL del repo
-//   - imagen:      ruta de la captura (si falta, usa imagenes/proyectoN.png según la posición)
-//   - destacado:   true para resaltar la tarjeta (opcional)
+//   - imagen:      ruta del gráfico o captura (si falta, usa imagenes/proyectoN.png según la posición)
+//   - caso:        ruta a la página del caso dentro de la web (opcional; añade "Ver caso")
+//   - principal:   true para mostrarla a lo ancho, como caso destacado (usar en una sola)
 // =============================================================
 
 const PROYECTOS = [
   {
     titulo: "Análisis Comercial de un Distribuidor Industrial B2B/B2C",
+    pregunta: "¿Dónde pierde margen un distribuidor industrial?",
+    cifra: "5",
+    cifraTexto: "oportunidades de negocio cuantificadas tras limpiar ~100.000 líneas de pedido: clientes en fuga, ventas cruzadas sin ofrecer y descuentos no autorizados.",
+    datos: "Dataset simulado · ~100.000 pedidos",
     stack: "Python · Excel/Power Query · SQL Server · Power BI",
-    descripcion:
-      "Análisis de ventas de un distribuidor industrial ficticio (metal, plástico, componentes, herramientas y packaging). Limpieza de datos sucios a gran escala (~100.000 registros) y detección de 5 oportunidades de negocio concretas mediante SQL y un dashboard ejecutivo en Power BI.",
-    metricas: [
-      "~100.000 líneas de pedido analizadas",
-      "5 oportunidades de negocio detectadas y cuantificadas",
-      "Dashboard ejecutivo en Power BI conectado a vistas SQL",
-    ],
     github: "https://github.com/lucasees/proyecto6-analisis-comercial-industrial",
     imagen: "imagenes/proyecto6.png",
-    destacado: true,
+    caso: "casos/industrial.html",
+    principal: true,
   },
   {
     titulo: "Mapa de Inversión Inmobiliaria de Valencia",
+    pregunta: "¿Qué barrios de Valencia cuestan más de lo que deberían?",
+    cifra: "−8,3%",
+    cifraTexto: "El Calvari, el barrio más infravalorado según el modelo de precio (MAE 244 €/m²).",
+    datos: "Datos reales · 33.622 viviendas",
     stack: "Python · geopandas · LightGBM · scikit-learn · folium · Power BI",
-    descripcion:
-      "33.622 anuncios reales de compra (idealista18, 2018). Un modelo LightGBM predice el precio por m² según la vivienda y su ubicación, y la diferencia con el precio real señala qué barrios están sobre o infravalorados. Mapa interactivo de 73 barrios y tablero en Power BI. La rentabilidad de alquiler es estimada: no hay datos públicos de alquiler por barrio.",
-    metricas: [
-      "33.622 viviendas reales, 73 barrios",
-      "Modelo de precio: MAE 244 €/m² (14,3%)",
-      "Más infravalorado: El Calvari (−8,3%)",
-    ],
     github: "https://github.com/lucasees/proyecto5-inmobiliario-valencia",
-    imagen: "imagenes/proyecto5.png",
-    destacado: true,
+    imagen: "imagenes/valencia-sobrevaloracion.png",
+    caso: "casos/valencia.html",
   },
   {
     titulo: "Predicción de Demanda con Machine Learning",
+    pregunta: "¿Cuánto le cuesta a un supermercado equivocarse al predecir la demanda?",
+    cifra: "−31,5%",
+    cifraTexto: "de error frente a repetir la venta de la semana anterior (−62,7% frente al promedio histórico).",
+    datos: "Datos reales · 18 tiendas",
     stack: "Python · LightGBM · scikit-learn",
-    descripcion:
-      "Previsión diaria de demanda para 18 tiendas de Corporación Favorita (datos reales). Comparo el modelo con dos referencias y traduzco el error a costo con costos asimétricos supuestos: faltar cuesta 1,5 veces más que sobrar.",
-    metricas: [
-      "Error −62,7% vs. promedio histórico",
-      "Error −31,5% vs. semana anterior",
-      "Costo del error −68% (costos supuestos)",
-    ],
     github: "https://github.com/lucasees/proyecto4-demanda-favorita",
-    imagen: "imagenes/proyecto1.png",
-    destacado: true,
+    imagen: "imagenes/favorita-costo-error.png",
+    caso: "casos/favorita.html",
   },
   {
     titulo: "Análisis de Churn con Python",
+    pregunta: "¿Por qué se van los clientes de una telco?",
+    cifra: "42,7%",
+    cifraTexto: "de fuga en contratos mensuales, frente al 2,8% en contratos de dos años.",
+    datos: "Dataset público · 7.043 clientes",
     stack: "Python · pandas · seaborn",
-    descripcion:
-      "Análisis exploratorio de 7.043 clientes de telecomunicaciones para identificar las principales palancas de retención y reducción de la fuga de clientes.",
-    metricas: [
-      "7.043 clientes analizados",
-      "Churn 26,5%",
-      "42,7% en contratos mensuales vs. 2,8% bianuales",
-    ],
     github: "https://github.com/lucasees/proyecto3-churn-analysis",
     imagen: "imagenes/proyecto4.png",
   },
   {
     titulo: "Análisis Comercial B2B",
+    pregunta: "¿Qué clientes B2B valen más y cuáles se están enfriando?",
+    cifra: "RFM",
+    cifraTexto: "segmentación y cohortes de retención sobre 1.747 registros en 5 tablas, con tablero de KPIs.",
+    datos: "Dataset simulado · 1.747 registros",
     stack: "SQL Server · Power BI",
-    descripcion:
-      "Segmentación RFM, análisis de cohortes e identificación de tendencias y desviaciones sobre un dataset B2B simulado de 1.747 registros, con un tablero de KPIs comerciales.",
-    metricas: [
-      "1.747 registros · 5 tablas",
-      "Segmentación RFM y cohortes",
-      "Dashboard de KPIs en Power BI",
-    ],
     github: "https://github.com/lucasees/proyecto1-analisis-b2b",
     imagen: "imagenes/proyecto2.png",
   },
   {
     titulo: "E-Commerce Analytics — Google Merchandise Store",
+    pregunta: "¿Qué canal vende y cuál solo trae visitas?",
+    cifra: "5,3%",
+    cifraTexto: "de conversión en Referral, frente al 1,3% general, en 903.653 sesiones.",
+    datos: "Datos reales · Google Analytics 2016-2017",
     stack: "BigQuery · SQL · Looker Studio",
-    descripcion:
-      "903.653 sesiones reales del dataset público de Google Analytics en BigQuery (Universal Analytics, 2016-2017): conversión por canal y dispositivo, embudo, cohortes y revenue, con tablero público en Looker Studio.",
-    metricas: [
-      "8 consultas SQL en BigQuery",
-      "Referral: 5,3% de conversión vs. 1,3% general",
-      "Tablero público en Looker Studio",
-    ],
     github: "https://github.com/lucasees/proyecto2-ecommerce-analytics",
     imagen: "imagenes/proyecto3.png",
   },

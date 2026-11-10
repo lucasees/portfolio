@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Qué barrios de Valencia cuestan más de lo que deberían · Lucas Espinosa</title>
+  <meta name="description" content="Caso de análisis: modelo de precio con LightGBM sobre 33.622 viviendas reales para detectar barrios sobre e infravalorados en Valencia." />
+  <meta property="og:title" content="Qué barrios de Valencia cuestan más de lo que deberían · Lucas Espinosa" />
+  <meta property="og:image" content="https://lucasees.github.io/portfolio/og-image.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css?v=6" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="../index.html" class="nav__brand">LE<span>.</span></a>
+      <nav class="nav__links">
+        <a href="../index.html#sobre-mi">Sobre mí</a>
+        <a href="../index.html#proyectos">Proyectos</a>
+        <a href="../index.html#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="case">
+    <a class="case__back" href="../index.html#proyectos">← Volver a los proyectos</a>
+
+    <p class="case__eyebrow label">Caso · Python · geopandas · LightGBM · scikit-learn · folium · Power BI</p>
+    <h1 class="case__title">Qué barrios de Valencia cuestan más de lo que deberían</h1>
+    <p class="case__lead">
+      Entrené un modelo que estima cuánto debería costar cada vivienda según sus
+      características y lo comparé con el precio real, barrio por barrio.
+    </p>
+
+    <dl class="case__meta">
+      <div>
+        <dt class="label">Datos</dt>
+        <dd>Reales · idealista18 (2018)</dd>
+      </div>
+      <div>
+        <dt class="label">Volumen</dt>
+        <dd>33.622 viviendas, 73 barrios</dd>
+      </div>
+      <div>
+        <dt class="label">Código</dt>
+        <dd><a href="https://github.com/lucasees/proyecto5-inmobiliario-valencia" target="_blank" rel="noopener">Repositorio en GitHub</a></dd>
+      </div>
+    </dl>
+
+    <section class="case__section">
+      <h2>La pregunta</h2>
+      <p class="case__question">
+        ¿Qué barrios cobran más, o menos, de lo que justifican sus viviendas?
+      </p>
+      <p>
+        Un barrio caro no es necesariamente una mala compra, ni uno barato una oportunidad.
+        Lo que le interesa a un inversor es la diferencia entre lo que se paga y lo que la
+        vivienda vale por sus características.
+      </p>
+    </section>
+
+    <section class="case__section">
+      <h2>Los datos</h2>
+      <p>
+        33.622 anuncios reales de compra con coordenadas GPS, del dataset académico
+        <code>idealista18</code>. Son precios de 2018: hoy son más altos, así que sirven para
+        comparar barrios entre sí, no como precio actual.
+      </p>
+    </section>
+
+    <section class="case__section">
+      <h2>El enfoque</h2>
+      <ul>
+        <li>Un modelo LightGBM predice el precio por m² de cada vivienda a partir de superficie, habitaciones, baños, antigüedad, distancia al centro y distancia al metro.</li>
+        <li>Error medio del modelo: <strong>244 €/m²</strong> (14,3% de error relativo).</li>
+        <li>Para cada barrio, comparo el precio real con el que predice el modelo: si es mayor, el barrio está sobrevalorado; si es menor, infravalorado.</li>
+      </ul>
+    </section>
+
+    <section class="case__section">
+      <h2>Lo que encontré</h2>
+      <ol class="findings">
+        <li>
+          <p class="findings__num">+5,5%</p>
+          <div>
+            <p class="findings__what">Nou Campanar, el barrio más sobrevalorado</p>
+            <p class="findings__why">Le siguen Campanar (+5,0%) y La Carrasca (+3,6%): el precio real supera lo que justifican sus viviendas.</p>
+          </div>
+        </li>
+        <li>
+          <p class="findings__num">−8,3%</p>
+          <div>
+            <p class="findings__what">El Calvari, el barrio más infravalorado</p>
+            <p class="findings__why">Le siguen Na Rovella (−7,5%) y Natzaret (−6,7%): se paga menos de lo que el modelo espera para esas viviendas.</p>
+          </div>
+        </li>
+      </ol>
+      <figure class="case__figure">
+        <img src="../imagenes/valencia-sobrevaloracion.png" alt="Gráfico de barras con los barrios de Valencia más sobrevalorados e infravalorados según el modelo" loading="lazy" />
+        <figcaption>Diferencia entre el precio real y el que predice el modelo, por barrio.</figcaption>
+      </figure>
+    </section>
+
+    <section class="case__section">
+      <h2>Una aclaración sobre la rentabilidad</h2>
+      <p>
+        El mapa interactivo colorea los barrios por rentabilidad de alquiler, pero esa
+        rentabilidad es una estimación: no pude acceder a datos públicos de alquiler por
+        barrio, así que apliqué la rentabilidad media de Valencia (~5,9%) ajustada por precio.
+        Por eso no la presento como hallazgo: el resultado del análisis es la sobre e
+        infravaloración, que sí sale de datos reales.
+      </p>
+    </section>
+
+    <section class="case__section">
+      <h2>Qué haría distinto</h2>
+      <p>
+        Con datos reales de alquiler por barrio, calcularía la rentabilidad observada en
+        lugar de estimarla y la cruzaría con la sobrevaloración. Y repetiría el modelo con
+        precios recientes para ver si el ranking de barrios se mantiene.
+      </p>
+    </section>
+
+    <div class="case__cta">
+      <a class="btn btn--primary" href="https://lucasees.github.io/proyecto5-inmobiliario-valencia/mapa_rentabilidad_valencia_v2.html" target="_blank" rel="noopener">Abrir el mapa interactivo</a>
+      <a class="btn btn--ghost" href="https://github.com/lucasees/proyecto5-inmobiliario-valencia" target="_blank" rel="noopener">Ver el código en GitHub</a>
+      <a class="btn btn--ghost" href="../index.html#proyectos">Volver a los proyectos</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Lucas Espinosa · Analista de Datos de Negocio</p>
+  </footer>
+</body>
+</html>

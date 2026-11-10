@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Dónde pierde margen un distribuidor industrial · Lucas Espinosa</title>
+  <meta name="description" content="Caso de análisis: limpieza de ~100.000 líneas de pedido y 5 oportunidades de negocio cuantificadas con SQL Server y Power BI." />
+  <meta property="og:title" content="Dónde pierde margen un distribuidor industrial · Lucas Espinosa" />
+  <meta property="og:image" content="https://lucasees.github.io/portfolio/og-image.png" />
+
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Bricolage+Grotesque:opsz,wght@12..96,600;12..96,700;12..96,800&family=IBM+Plex+Mono:wght@500;600&family=IBM+Plex+Sans:wght@400;500;600&display=swap" rel="stylesheet" />
+  <link rel="stylesheet" href="../styles.css?v=6" />
+</head>
+<body>
+
+  <header class="nav">
+    <div class="nav__inner">
+      <a href="../index.html" class="nav__brand">LE<span>.</span></a>
+      <nav class="nav__links">
+        <a href="../index.html#sobre-mi">Sobre mí</a>
+        <a href="../index.html#proyectos">Proyectos</a>
+        <a href="../index.html#contacto">Contacto</a>
+      </nav>
+    </div>
+  </header>
+
+  <main class="case">
+    <a class="case__back" href="../index.html#proyectos">← Volver a los proyectos</a>
+
+    <p class="case__eyebrow label">Caso · Python · Power Query · SQL Server · Power BI</p>
+    <h1 class="case__title">Dónde pierde margen un distribuidor industrial</h1>
+    <p class="case__lead">
+      Limpié ~100.000 líneas de pedido con los errores típicos de los datos reales y las
+      convertí en cinco oportunidades concretas para el equipo comercial.
+    </p>
+
+    <dl class="case__meta">
+      <div>
+        <dt class="label">Datos</dt>
+        <dd>Sintéticos, generados con Python</dd>
+      </div>
+      <div>
+        <dt class="label">Volumen</dt>
+        <dd>~100.000 líneas de pedido</dd>
+      </div>
+      <div>
+        <dt class="label">Código</dt>
+        <dd><a href="https://github.com/lucasees/proyecto6-analisis-comercial-industrial" target="_blank" rel="noopener">Repositorio en GitHub</a></dd>
+      </div>
+    </dl>
+
+    <section class="case__section">
+      <h2>La pregunta</h2>
+      <p class="case__question">
+        ¿Dónde está dejando dinero un distribuidor B2B, y qué puede hacer el equipo comercial al respecto?
+      </p>
+      <p>
+        No alcanzaba con describir qué se vendió. El objetivo era señalar acciones: a qué
+        clientes llamar, qué ofrecerles y dónde falta cobertura.
+      </p>
+    </section>
+
+    <section class="case__section">
+      <h2>Los datos</h2>
+      <p>
+        Un distribuidor ficticio de metal, plástico, componentes, herramientas y packaging.
+        Los datos son sintéticos porque la información comercial real de una empresa no se
+        publica, pero los diseñé para que tuvieran los mismos problemas que aparecen en
+        datos reales:
+      </p>
+      <ul>
+        <li>fechas en formatos mezclados;</li>
+        <li>decimales en formato español e inglés en la misma columna (<code>426.96</code> y <code>232,29</code>);</li>
+        <li>duplicados, categorías mal escritas, valores vacíos y errores de captura.</li>
+      </ul>
+    </section>
+
+    <section class="case__section">
+      <h2>El enfoque</h2>
+      <p>
+        Antes de confiar en un solo número, los datos pasaron por dos etapas de limpieza:
+      </p>
+      <ul>
+        <li><strong>Excel / Power Query:</strong> normalicé nombres, provincias, categorías y NIF, y convertí los decimales mixtos celda por celda, sin forzar un único formato regional.</li>
+        <li><strong>SQL Server:</strong> audité cada columna numérica (mínimo, máximo y promedio contra los rangos esperados) y cada columna de texto (variantes con <code>GROUP BY</code> y <code>COUNT</code>), y corregí errores de importación que habrían invalidado el análisis.</li>
+      </ul>
+      <p>
+        El tablero de Power BI lee directamente de vistas SQL, no de medidas recalculadas: así
+        los números del tablero son exactamente los mismos que los de las consultas.
+      </p>
+    </section>
+
+    <section class="case__section">
+      <h2>Lo que encontré</h2>
+      <ol class="findings">
+        <li>
+          <p class="findings__num">199</p>
+          <div>
+            <p class="findings__what">clientes en riesgo de fuga</p>
+            <p class="findings__why">Bajaron su actividad más de un 60% en los últimos 6 meses respecto de su promedio histórico. Todavía hay margen para contactarlos antes de perderlos.</p>
+            <p class="findings__how label">01_churn.sql</p>
+          </div>
+        </li>
+        <li>
+          <p class="findings__num">176</p>
+          <div>
+            <p class="findings__what">clientes rentables con poco seguimiento</p>
+            <p class="findings__why">Compran poco (entre 3 y 25 pedidos), pero al menos el 60% de lo que compran tiene un margen superior al 35%.</p>
+            <p class="findings__how label">02_alto_margen_desatendido.sql</p>
+          </div>
+        </li>
+        <li>
+          <p class="findings__num">359</p>
+          <div>
+            <p class="findings__what">clientes que compran Metal y nunca Herramientas</p>
+            <p class="findings__why">Dos categorías que en el resto de la base suelen ir juntas: una venta cruzada que nadie les está ofreciendo.</p>
+            <p class="findings__how label">03_cross_selling.sql</p>
+          </div>
+        </li>
+        <li>
+          <p class="findings__num">5.083</p>
+          <div>
+            <p class="findings__what">líneas de pedido con descuentos no autorizados</p>
+            <p class="findings__why">Cerca del 5% del total, con rebajas de entre el 8% y el 25% sobre el precio de catálogo y sin un patrón de volumen que las justifique.</p>
+            <p class="findings__how label">04_fuga_margen.sql</p>
+          </div>
+        </li>
+        <li>
+          <p class="findings__num">3</p>
+          <div>
+            <p class="findings__what">provincias con clientes activos y ningún comercial</p>
+            <p class="findings__why">Murcia, Castellón y Málaga suman más de 1.000 clientes con pedidos reales (352, 361 y 356) sin cobertura comercial asignada.</p>
+            <p class="findings__how label">05_whitespace_regional.sql</p>
+          </div>
+        </li>
+      </ol>
+      <figure class="case__figure">
+        <img src="../imagenes/proyecto6.png" alt="Tablero de Power BI con las cinco oportunidades del distribuidor industrial" loading="lazy" />
+        <figcaption>El tablero de Power BI resume las cinco oportunidades en una sola vista, conectado a vistas SQL.</figcaption>
+      </figure>
+    </section>
+
+    <section class="case__section">
+      <h2>Qué haría distinto</h2>
+      <p>
+        El análisis usa precio de catálogo y margen estándar por producto, no costos reales.
+        Por eso la "fuga de margen" mide cuánto se aleja cada venta del precio de lista, no la
+        pérdida exacta en euros. Con costos reales por producto, el mismo enfoque calcularía
+        el impacto en el margen neto.
+      </p>
+    </section>
+
+    <div class="case__cta">
+      <a class="btn btn--primary" href="https://github.com/lucasees/proyecto6-analisis-comercial-industrial" target="_blank" rel="noopener">Ver el código en GitHub</a>
+      <a class="btn btn--ghost" href="../index.html#proyectos">Volver a los proyectos</a>
+    </div>
+  </main>
+
+  <footer class="footer">
+    <p>© 2026 Lucas Espinosa · Analista de Datos de Negocio</p>
+  </footer>
+</body>
+</html>
