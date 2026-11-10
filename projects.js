@@ -16,11 +16,11 @@ const PROYECTOS = [
     titulo: "Predicción de Demanda con Machine Learning",
     stack: "Python · LightGBM",
     descripcion:
-      "Modelo de previsión de demanda para retail con datos reales de Corporación Favorita (18 tiendas), traduciendo el error de predicción a impacto económico real.",
+      "Previsión diaria de demanda para 18 tiendas de Corporación Favorita (datos reales). Comparo el modelo con dos referencias y traduzco el error a costo con costos asimétricos supuestos: faltar cuesta 1,5 veces más que sobrar.",
     metricas: [
-      "Mejora del baseline 62,6% (MAE)",
-      "27,6 M$ de ahorro estimado en 8 meses",
-      "Understock vs. sobrestock",
+      "Error −62,7% vs. promedio histórico",
+      "Error −31,5% vs. semana anterior",
+      "Costo del error −68% (costos supuestos)",
     ],
     github: "https://github.com/lucasees/proyecto4-demanda-favorita",
     destacado: true,
